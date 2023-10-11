@@ -16,9 +16,6 @@ Telefono: 695627908
 
 Web: **No tenc web**
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
 ## Resumen
 ## Titulos Acdémicos
