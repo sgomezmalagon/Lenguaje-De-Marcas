@@ -1,13 +1,14 @@
 # Curriculum vitae
 
 ![Gato](https://elcorreoweb.es/binrepository/761x400/43c0/675d400/none/10703/BDIX/eca-gatos-negros_20980457_20221227101253.jpg).
+
 Nombre: Sergio Gómez Malagón
 Fecha de nacimiento: 16/01/2005
 Dirección: Sant Joan de la salle
 Codigo postal: 07003
 Email: sgomezmalagon@cifpfbmoll.eu
 Telefono: 695627908
-
+Web: **No tenc web**
 
 - Type some Markdown on the left
 - See HTML in the right
