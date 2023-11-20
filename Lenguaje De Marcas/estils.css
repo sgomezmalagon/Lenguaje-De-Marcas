@@ -1,0 +1,144 @@
+/*Pagina Inicio*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #fff59d;
+}
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+     font-size: 700;
+     color: white;
+     text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+.header .boton button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #fff59d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.header .boton button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1,1);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+  }
+  h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  img .main{
+    width: 50%;
+    margin: 0 auto;
+
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  img {
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img.header {
+    border: none;
+  }
+
+  img.main {
+  float: none;
+  margin: 20px auto;
+}
+.main {
+    display: block;
+    margin: 0 10px;
+
+  }
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+/*Pagina Inicio*/
+
+
+

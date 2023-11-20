@@ -1,0 +1,51 @@
+/* Configuración general del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif; /* Establece la fuente principal del cuerpo de la página */
+  margin: 0; /* Elimina el margen exterior predeterminado del cuerpo de la página */
+  padding: 0; /* Elimina el relleno interno predeterminado del cuerpo de la página */
+  background-image: url(cabecera_youtube.jpg); /* Establece una imagen de fondo para el cuerpo de la página */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  background-color: #FF0000; /* Fija el color de fondo del encabezado en rojo (#FF0000) */
+  color: white; /* Establece el color del texto en el encabezado en blanco */
+  text-align: center; /* Centra el contenido del encabezado */
+  padding: 30px 0; /* Agrega un relleno interno de 30px en la parte superior e inferior y 0 en los lados */
+  display: flex; /* Utiliza un modelo de caja flexible para el encabezado */
+  justify-content: center; /* Centra los elementos del encabezado horizontalmente */
+  align-items: center; /* Centra los elementos del encabezado verticalmente */
+}
+
+/* Estilos para la imagen en el encabezado */
+img {
+  width: 80px; /* Establece el ancho de la imagen en 80px */
+  margin-right: 20px; /* Agrega un margen derecho de 20px a la imagen */
+}
+
+/* Estilos para el título principal */
+h1 {
+  margin: 0; /* Elimina el margen superior del título principal */
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+  display: flex; /* Utiliza un modelo de caja flexible para el contenido principal */
+  justify-content: space-around; /* Distribuye el espacio entre los elementos del contenido principal */
+  margin: 20px; /* Agrega un margen externo de 20px al contenido principal */
+}
+
+/* Estilos para el elemento de video */
+video {
+  width: 480px; /* Establece el ancho del elemento de video en 480px */
+  height: 360px; /* Establece la altura del elemento de video en 360px */
+}
+
+/* Estilos para el pie de página de la página */
+footer {
+  background-color: #FF0000; /* Fija el color de fondo del pie de página en rojo (#FF0000) */
+  color: white; /* Establece el color del texto en el pie de página en blanco */
+  text-align: center; /* Centra el contenido del pie de página */
+  padding: 30px 0; /* Aumenté el padding para darle más altura al pie de página */
+  margin-top: 20px; /* Agrega un margen superior de 20px al pie de página */
+}

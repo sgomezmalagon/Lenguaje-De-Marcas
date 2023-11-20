@@ -1,0 +1,61 @@
+/* Configuración general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente principal del cuerpo de la página */
+    margin: 0; /* Elimina el margen exterior predeterminado del cuerpo de la página */
+    padding: 0; /* Elimina el relleno interno predeterminado del cuerpo de la página */
+    background-image: url(fondo_tablas.jpg); /* Establece una imagen de fondo para el cuerpo de la página */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+    background-color: #333; /* Fija el color de fondo del encabezado en negro oscuro (#333) */
+    color: white; /* Establece el color del texto en el encabezado en blanco */
+    text-align: center; /* Centra el contenido del encabezado */
+    padding: 50px 0; /* Agrega un relleno interno de 50px en la parte superior e inferior y 0 en los lados */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex; /* Utiliza un modelo de caja flexible para la barra de navegación */
+    justify-content: center; /* Centra los elementos de la barra de navegación horizontalmente */
+}
+
+/* Estilos para el título principal */
+h1 {
+    margin: 0; /* Elimina el margen superior del título principal */
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+    margin: 20px; /* Agrega un margen externo de 20px al contenido principal */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%; /* Establece el ancho de la tabla al 100% del contenedor */
+    border-color: white; /* Establece el color del borde de la tabla en blanco */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla para que no haya espacios entre las celdas */
+    margin-top: 20px; /* Agrega un margen superior de 20px a la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+th, td {
+    border-color: white; /* Establece el color del borde de las celdas en blanco */
+    padding: 10px; /* Agrega un relleno interno de 10px a las celdas */
+    text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+    color: white; /* Establece el color del texto en las celdas en blanco */
+}
+
+/* Estilos para las celdas de encabezado de la tabla */
+th {
+    background-color: #333; /* Fija el color de fondo de las celdas de encabezado en negro oscuro (#333) */
+    color: white; /* Establece el color del texto en las celdas de encabezado en blanco */
+}
+
+/* Estilos para el pie de página de la página */
+footer {
+    background-color: #333; /* Fija el color de fondo del pie de página en negro oscuro (#333) */
+    color: white; /* Establece el color del texto en el pie de página en blanco */
+    text-align: center; /* Centra el contenido del pie de página */
+    padding: 50px 0; /* Agrega un relleno interno de 50px en la parte superior e inferior y 0 en los lados */
+}

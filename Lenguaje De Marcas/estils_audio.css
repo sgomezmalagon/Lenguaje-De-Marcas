@@ -1,0 +1,58 @@
+/* Configuración general del cuerpo de la página */
+body {
+  background-color: gray; /* Establece el color de fondo del cuerpo de la página en gris */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  padding: 20px; /* Agrega un relleno interno de 20px al encabezado */
+  text-align: center; /* Centra el contenido del encabezado */
+  background-color: #1b3039; /* Fija el color de fondo del encabezado */
+  text-decoration: white; /* Se debe corregir a "color: white;" para cambiar el color del texto a blanco */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos en el eje principal (horizontal) */
+  align-items: center; /* Centra los elementos en el eje transversal (vertical) */
+  height: 85px; /* Establece la altura del encabezado en 85px */
+  padding: 5px 10%; /* Agrega un relleno interno de 5px en la parte superior e inferior y 10% en los lados */
+}
+
+/* Estilos para el título principal */
+h1 {
+  font-size: 24px; /* Establece el tamaño de fuente del título principal en 24px */
+  font-weight: bold; /* Hace que el título principal tenga negrita */
+  color: white; /* Establece el color del texto del título principal en blanco */
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+  padding: 20px; /* Agrega un relleno interno de 20px al contenido principal */
+  margin: 20px; /* Agrega un margen externo de 20px al contenido principal */
+  background-color: #fff; /* Fija el color de fondo del contenido principal en blanco */
+  border-radius: 5px; /* Agrega esquinas redondeadas al contenido principal */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra al contenido principal */
+}
+
+/* Estilos para el elemento de audio */
+audio {
+  display: block; /* Configura el elemento de audio como un bloque (centrado) */
+  margin: 0 auto; /* Centra el elemento de audio horizontalmente */
+  margin-bottom: 20px; /* Agrega un margen inferior de 20px al elemento de audio */
+}
+
+/* Estilos para el pie de página de la página */
+footer {
+  background-color: #f2f2f2; /* Fija el color de fondo del pie de página en gris claro */
+  padding: 20px; /* Agrega un relleno interno de 20px al pie de página */
+  text-align: center; /* Centra el contenido del pie de página */
+  color: black; /* Establece el color del texto del pie de página en negro */
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 14px; /* Establece el tamaño de fuente de los párrafos en 14px */
+  color: #333; /* Establece el color del texto de los párrafos en gris oscuro */
+}
+
+/* Estilos para el texto en negrita */
+b {
+  font-weight: bold; /* Hace que el texto en negrita sea negrita */
+}
