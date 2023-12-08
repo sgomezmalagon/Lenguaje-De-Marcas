@@ -128,13 +128,16 @@ inicio.css
 - Estilizacion de listas
 
 ## Capturas de Pantalla
-
+**Sección de General:**
 ![CSS General](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Estilo-General.png)
 
+**Sección de Botones:**
 ![CSS Botones](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Botones.png)
 
+**Sección de Zapas:**
 ![CSS Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
 
+**Sección de Header:**
 ![CSS Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header1.png) ![Header2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header2.png)
 
 ![CSS Historia](/ruta/a/imagen1.png)
