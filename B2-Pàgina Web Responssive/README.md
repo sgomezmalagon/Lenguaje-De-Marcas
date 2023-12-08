@@ -99,6 +99,7 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 
 **Sección de Footer:**
 ![Sección de Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_Footer.png)
+
 ## División de Tareas
 
 ### Trabajo Conjunto
