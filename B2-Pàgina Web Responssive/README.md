@@ -76,10 +76,11 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 - Navegación sencilla con enlaces a diferentes secciones.
 
 ## Capturas de Pantalla
+**Sección de Header:**
+![Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadme/Inciohtml1.png)
 
 **Sección de Historia:**
-![Sección de Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadme/Inciohtml1.png)
-
+![Sección de Historia]()
 **Sección de Nike:**
 ![Sección de Nike](screenshots/seccion_nike.png)
 
