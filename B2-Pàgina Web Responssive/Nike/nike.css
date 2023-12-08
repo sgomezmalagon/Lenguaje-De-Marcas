@@ -1,0 +1,447 @@
+/* Establecer el modelo de caja para todos los elementos */
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif; /* Establecer la fuente para todo el documento */
+}
+
+/* Estilo para el elemento 'html' */
+html {
+  scroll-behavior: smooth; /* Suavizar el desplazamiento en la página */
+}
+
+/* Estilo para el elemento 'body' */
+body {
+  margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+  background-color: rgb(165, 165, 165); /* Color de fondo del cuerpo */
+}
+
+/* Estilo para encabezados h1 */
+h1 {
+  font-size: 2.7em; /* Tamaño de fuente para h1 */
+}
+
+/* Estilo para encabezados h2 */
+h2 {
+  font-size: 2.7em; /* Tamaño de fuente para h2 */
+}
+
+/* Estilo para encabezados h3 */
+h3 {
+  font-size: 2em; /* Tamaño de fuente para h3 */
+}
+
+/* Estilo para párrafos */
+p {
+  font-size: 1.25em; /* Tamaño de fuente para párrafos */
+}
+
+/* Estilo para elementos con clase 'zapa' */
+.zapa {
+  max-width: 1400px; /* Ancho máximo para .zapa: 1400 píxeles */
+  margin: auto; /* Centrar .zapa en la página */
+  padding: 20px; /* Relleno interno de .zapa: 20 píxeles */
+}
+
+/* Estilo para elementos con clase 'color-titulo' */
+.color-titulo {
+  color: rgb(36, 255, 182); /* Color de texto para elementos con clase 'color-titulo' */
+}
+
+  
+  /* Estilo para el elemento 'header' */
+header {
+  background-color: rgb(10, 10, 10); /* Color de fondo del encabezado */
+  padding-bottom: 0px; /* Eliminar el relleno inferior del encabezado */
+}
+
+/* Estilo para elementos con clase 'logo' dentro de 'header' */
+header .logo {
+  padding: 10px; /* Relleno interno para 'logo': 10 píxeles en todos los lados */
+  font-weight: bold; /* Peso de la fuente: negrita */
+  color: red; /* Color de texto: rojo */
+  font-size: 1.6em; /* Tamaño de fuente: 1.6em */
+}
+
+/* Estilo para elementos con clase 'titulo' dentro de 'header' */
+header .titulo {
+  display: flex; /* Mostrar como contenedor flexible */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  text-decoration: underline; /* Decoración de texto: subrayado */
+  align-items: center; /* Alinear los elementos a lo largo del eje transversal al centro */
+  color: rgb(36, 255, 182); /* Color de texto para 'titulo' */
+}
+
+/* Estilo para elementos 'nav' dentro de 'header' */
+header nav {
+  display: flex; /* Mostrar como contenedor flexible */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  text-align: center; /* Alineación del texto: centrado */
+  padding-bottom: 20px; /* Relleno inferior: 20 píxeles */
+}
+
+  
+  /* Estilo para enlaces 'a' dentro de 'header' */
+header a {
+  margin: 0 50px; /* Margen derecho e izquierdo: 50 píxeles */
+  padding: 5px 12px; /* Relleno interno: 5 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  text-decoration: none; /* Eliminar la decoración de subrayado */
+  font-weight: bold; /* Peso de la fuente: negrita */
+  color: rgb(255, 255, 255); /* Color de texto para enlaces en estado normal */
+}
+
+/* Estilo para enlaces 'a' dentro de 'header' al pasar el ratón sobre ellos */
+header a:hover {
+  color: rgb(36, 255, 182); /* Cambiar el color de texto al pasar el ratón */
+}
+
+/* Estilo para el elemento con id 'subtitulo' */
+#subtitulo {
+  font-size: 7.6em; /* Tamaño de fuente para #subtitulo: 7.6em */
+}
+
+/* Estilo para elementos con clase 'hist' */
+.hist {
+  display: flex; /* Mostrar como contenedor flexible */
+  align-items: center; /* Alinear los elementos a lo largo del eje transversal al centro */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  padding-bottom: 20px; /* Relleno inferior: 20 píxeles */
+  text-align: center; /* Alineación del texto: centrado */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  height: 100vh; /* Altura del elemento: 100% de la altura de la ventana */
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+  ), url("/Nike/Imagenes/Cabezera.png"); /* Imagen de fondo con degradado y URL */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+}
+
+  
+  /* Estilo para elementos h1 dentro de elementos con clase 'hist' */
+.hist h1 {
+  color: rgb(255, 255, 255); /* Color de texto para h1 dentro de .hist */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'jordan' */
+#jordan .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'airforce' */
+#airforce .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'airmax' */
+#airmax .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'nikesb' */
+#nikesb .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para el elemento con id 'masmodelos' */
+#masmodelos {
+  background-color: rgba(30, 30, 30); /* Color de fondo */
+  color: white; /* Color de texto */
+  text-align: center; /* Alineación del texto: centrado */
+}
+
+  
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'masmodelos' */
+#masmodelos .zapa {
+  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos h2 dentro de elementos con id 'masmodelos' */
+#masmodelos h2 {
+  margin-top: 0; /* Eliminar el margen superior */
+  font-size: 3.2em; /* Tamaño de fuente: 3.2em */
+}
+
+/* Estilo para elementos con clase 'carta' dentro de elementos con id 'masmodelos' */
+#masmodelos .carta {
+  background-position: center center; /* Posición del fondo: centro */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  padding: 50px; /* Relleno interno: 50 píxeles en todos los lados */
+  margin: 20px; /* Margen: 20 píxeles en todos los lados */
+  border-radius: 15px; /* Radio de borde: 15 píxeles */
+}
+
+/* Estilo para el primer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+  ), url(/Nike/Imagenes/Dunk.png); /* Imagen de fondo con degradado y URL */
+}
+
+  
+  /* Estilo para el segundo elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+  ), url(/Nike/Imagenes/Cortez.png); /* Imagen de fondo con degradado y URL */
+}
+
+/* Estilo para el tercer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+  ), url(/Nike/Imagenes/Blazer.png); /* Imagen de fondo con degradado y URL */
+}
+
+/* Estilo para el elemento 'footer' */
+footer {
+  background-color: grey; /* Color de fondo del pie de página */
+  padding: 15px; /* Relleno interno: 15 píxeles en todos los lados */
+  justify-content: space-between; /* Distribución del espacio entre elementos a lo largo del eje principal */
+  align-items: center; /* Alinear los elementos a lo largo del eje transversal al centro */
+  line-height: 1.5em; /* Altura de línea: 1.5 veces el tamaño de la fuente */
+}
+
+  
+ /* Estilo para elementos con clase 'info' dentro de elementos con clase 'footer' */
+.footer .info {
+  justify-content: space-between; /* Distribución del espacio entre elementos a lo largo del eje principal */
+  align-items: center; /* Alinear los elementos a lo largo del eje transversal al centro */
+}
+
+/* Estilo para elementos con clase 'info-group' */
+.info-group {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: space-around; /* Distribución del espacio entre elementos a lo largo del eje principal */
+  margin: 2px 1px; /* Margen superior e inferior: 2 píxeles, margen izquierdo y derecho: 1 píxel */
+  padding: 1px 5px; /* Relleno superior e inferior: 1 píxel, relleno izquierdo y derecho: 5 píxeles */
+}
+
+/* Estilo para enlaces 'a' dentro de elementos con clase 'info-group' al pasar el ratón sobre ellos */
+.info-group a:hover {
+  color: rgb(0, 238, 255); /* Cambiar el color de texto al pasar el ratón */
+}
+
+/* Estilo para elementos con clase 'idiomas' */
+.idiomas {
+  margin: 0; /* Eliminar el margen */
+  display: flex; /* Mostrar como contenedor flexible */
+  color: black; /* Color de texto */
+  justify-content: space-between; /* Distribución del espacio entre elementos a lo largo del eje principal */
+}
+
+/* Estilo para enlaces 'a' dentro de elementos con clase 'idiomas' */
+.idiomas a {
+  margin-right: 15px; /* Margen derecho: 15 píxeles */
+}
+
+ /* Estilo para elementos con clase 'span' dentro de elementos 'idiomas' */
+.idiomas span {
+  display: inline-block; /* Mostrar como bloque en línea */
+  margin: 2px 1px; /* Margen superior e inferior: 2 píxeles, margen izquierdo y derecho: 1 píxel */
+  padding: 5px 10px; /* Relleno superior e inferior: 5 píxeles, relleno izquierdo y derecho: 10 píxeles */
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: space-around; /* Distribución del espacio entre elementos a lo largo del eje principal */
+}
+
+/* Estilo para elementos 'p' dentro de elementos 'footer' */
+footer p {
+  margin: 0; /* Eliminar el margen */
+  color: rgb(31, 31, 31); /* Color de texto */
+}
+
+/* Estilo para elementos con clase 'copy' dentro de elementos 'footer' */
+footer .copy {
+  height: 50px; /* Altura: 50 píxeles */
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  align-items: flex-end; /* Alinear los elementos al final del eje transversal */
+}
+
+  
+  /* --------------------------------------------------------------------- */
+  
+  /* Estilos aplicados cuando el ancho de la pantalla es igual o mayor a 720px */
+@media (min-width: 720px) {
+  /* Estilo para el elemento 'header' */
+  header {
+      position: fixed; /* Fijar la posición del encabezado */
+      width: 100%; /* Ancho del 100% de la pantalla */
+  }
+
+  /* Estilo para elementos con clase 'logo' dentro de 'header' */
+  header .logo {
+      flex-direction: row; /* Dirección del diseño flexible: fila */
+      justify-content: space-between; /* Distribución del espacio entre elementos a lo largo del eje principal */
+      display: flex; /* Mostrar como contenedor flexible */
+      flex-direction: column; /* Dirección del diseño flexible: columna */
+      align-items: center; /* Alinear los elementos a lo largo del eje transversal al centro */
+  }
+
+  /* Estilo para elementos 'nav' dentro de 'header' */
+  header nav {
+      flex-direction: row; /* Dirección del diseño flexible: fila */
+      padding-bottom: 0; /* Eliminar el relleno inferior */
+  }
+
+  /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'jordan' */
+  #jordan .zapa {
+      display: flex; /* Mostrar como contenedor flexible */
+      justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  }
+ }
+
+ /* Estilo para elementos con clase 'texto' dentro de elementos con id 'jordan' */
+ #jordan .texto {
+  width: 50%; /* Ancho: 50% */
+  max-width: 600px; /* Ancho máximo: 600px */
+  text-align: initial; /* Alineación del texto: inicial */
+  padding-left: 50px; /* Relleno a la izquierda: 50px */
+  flex-direction: column; /* Dirección del diseño flexible: columna */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centro */
+ }
+
+ /* Estilo para elementos 'h2' dentro de elementos con id 'jordan' */
+ #jordan h2 {
+  margin-top: 0px; /* Margen superior: 0px */
+ } 
+
+ /* Estilo para elementos con clase 'img-jordan' dentro de elementos con id 'jordan' */
+ #jordan .img-jordan {
+  background-image: url(/Nike/Imagenes/Jordan.png); /* Imagen de fondo con URL */
+  background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
+  background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
+  height: 500px; /* Altura: 500px */
+  width: 400px; /* Ancho: 400px */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'airforce' */
+ #airforce .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto1' dentro de elementos con id 'airforce' */
+ #airforce .texto1 {
+  width: 50%; /* Ancho: 50% */
+  max-width: 600px; /* Ancho máximo: 600px */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno a la izquierda: 50px */
+  flex-direction: column; /* Dirección del diseño flexible: columna */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centro */
+ } 
+
+  /* Estilo para elementos 'h2' dentro de elementos con id 'airforce' */
+ #airforce h2 {
+  margin-top: 0px; /* Margen superior: 0px */
+ }
+
+ /* Estilo para elementos con clase 'img-airforce' dentro de elementos con id 'airforce' */
+ #airforce .img-airforce {
+  background-image: url(/Nike/Imagenes/Air-force.png); /* Imagen de fondo con URL */
+  background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
+  background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
+  height: 500px; /* Altura: 500px */
+  width: 500px; /* Ancho: 500px */
+  order: 1; /* Orden en el diseño flexible: 1 */
+  margin: 50px; /* Margen: 50px */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'airmax' */
+ #airmax .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto2' dentro de elementos con id 'airmax' */
+ #airmax .texto2 {
+  width: 50%; /* Ancho: 50% */
+  max-width: 600px; /* Ancho máximo: 600px */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno a la izquierda: 50px */
+  flex-direction: column; /* Dirección del diseño flexible: columna */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centro */
+}
+
+  /* Estilo para elementos 'h2' dentro de elementos con id 'airmax' */
+ #airmax h2 {
+  margin-top: 0px; /* Margen superior: 0px */
+ }
+
+ /* Estilo para elementos con clase 'img-airmax' dentro de elementos con id 'airmax' */
+ #airmax .img-airmax {
+  background-image: url(/Nike/Imagenes/Air-Max.png); /* Imagen de fondo con URL */
+  background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
+  background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
+  height: 350px; /* Altura: 350px */
+  width: 500px; /* Ancho: 500px */
+ }
+
+   /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'nikesb' */
+#nikesb .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto3' dentro de elementos con id 'nikesb' */
+ #nikesb .texto3 {
+  width: 50%; /* Ancho: 50% */
+  max-width: 600px; /* Ancho máximo: 600px */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno a la izquierda: 50px */
+  flex-direction: column; /* Dirección del diseño flexible: columna */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centro */
+ }
+
+ /* Estilo para elementos 'h2' dentro de elementos con id 'nikesb' */
+ #nikesb h2 {
+  margin-top: 0px; /* Margen superior: 0px */
+ }
+
+ /* Estilo para elementos con clase 'img-nikesb' dentro de elementos con id 'nikesb' */
+ #nikesb .img-nikesb {
+  background-image: url(/Nike/Imagenes/Nike-SB.png); /* Imagen de fondo con URL */
+  background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
+  background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
+  height: 350px; /* Altura: 350px */
+  width: 600px; /* Ancho: 600px */
+  order: 1; /* Orden en el diseño flexible: 1 */
+  margin: 40px; /* Margen: 40px */
+ }
+
+ /* Estilo para elementos con clase 'otros' dentro de elementos con id 'masmodelos' */
+ #masmodelos .otros {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos 'h3' dentro de elementos con id 'masmodelos' */
+ #masmodelos h3 {
+  margin-top: 0px; /* Margen superior: 0px */
+ }
+
+ /* Estilo para elementos 'p' dentro de elementos con id 'masmodelos' */
+ #masmodelos p {
+  display: block; /* Mostrar como bloque */
+  margin-bottom: 30px; /* Margen inferior: 30px */
+ }
+
+ /* Estilo para elementos con clase 'carta' dentro de elementos con id 'masmodelos' */
+ #masmodelos .carta {
+  padding: 15px; /* Relleno: 15px */
+ }
