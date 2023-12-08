@@ -97,7 +97,7 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 **Sección de Otros:**
 ![Sección de Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Otros-png.PNG)
 
-**Sección de Footer:**
+**Sección de Foter:**
 ![Sección de Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_Footer.png)
 
 ## División de Tareas
