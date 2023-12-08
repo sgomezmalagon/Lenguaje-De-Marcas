@@ -1,0 +1,469 @@
+/* Estilos generales para todos los elementos */
+* {
+  box-sizing: border-box; /* Ajusta el modelo de caja para incluir el borde en el tamaño total */
+  font-family: 'Times New Roman', Times, serif; /* Establece la fuente predeterminada para todos los elementos */
+}
+
+/* Estilos para el elemento HTML */
+html {
+  scroll-behavior: smooth; /* Suaviza el desplazamiento de la página al hacer clic en enlaces internos */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  background-color: rgb(165, 165, 165); /* Establece el color de fondo del cuerpo */
+}
+
+/* Estilos para encabezados h1 */
+h1 {
+  font-size: 2.7em; /* Establece el tamaño de fuente para h1 */
+}
+
+/* Estilos para encabezados h2 */
+h2 {
+  font-size: 2.7em; /* Establece el tamaño de fuente para h2 */
+}
+
+/* Estilos para encabezados h3 */
+h3 {
+  font-size: 2em; /* Establece el tamaño de fuente para h3 */
+}
+
+/* Estilos para párrafos */
+p {
+  font-size: 1.25em; /* Establece el tamaño de fuente para párrafos */
+}
+
+/* Estilos para todos los elementos button */
+button {
+  font-size: 2.5em; /* Tamaño de fuente de 2.5em */
+  font-weight: bold; /* Tipo de letra en negrita */
+  padding: 10px 70px; /* Relleno de 10px arriba/abajo y 70px izquierda/derecha */
+  border-radius: 10px; /* Radio de borde de 10px */
+  border: 2px solid rgb(36, 255, 182); /* Borde de 2px sólido en color especificado */
+  box-shadow: 2px 2px 10px black; /* Sombra de caja con desplazamiento de 2px en x, 2px en y y desenfoque de 10px en color negro */
+  color: rgb(255, 255, 255); /* Color del texto en blanco */
+  background-color: rgb(29, 29, 29); /* Color de fondo en negro */
+}
+
+/* Estilos para el estado hover de todos los elementos button */
+button:hover {
+  background-color: rgb(36, 255, 182); /* Cambia el color de fondo al pasar el ratón */
+  border: 2px solid rgb(0, 0, 0); /* Cambia el color del borde al pasar el ratón */
+  color: black; /* Cambia el color del texto al pasar el ratón */
+}
+
+/* Estilos para todos los elementos con clase 'botones' */
+.botones {
+  font-size: 1.5em; /* Tamaño de fuente de 1.5em */
+  font-weight: bold; /* Tipo de letra en negrita */
+  padding: 10px 20px; /* Relleno de 10px arriba/abajo y 20px izquierda/derecha */
+  border-radius: 10px; /* Radio de borde de 10px */
+  border: 2px solid rgb(36, 255, 182); /* Borde de 2px sólido en color especificado */
+  box-shadow: 2px 2px 10px black; /* Sombra de caja con desplazamiento de 2px en x, 2px en y y desenfoque de 10px en color negro */
+  color: rgb(255, 255, 255); /* Color del texto en blanco */
+  background-color: rgb(29, 29, 29); /* Color de fondo en negro */
+  text-decoration-line: none; /* Elimina la decoración de subrayado del texto */
+}
+
+/* Estilos para el estado hover de todos los elementos con clase 'botones' */
+.botones:hover {
+  background-color: rgb(36, 255, 182); /* Cambia el color de fondo al pasar el ratón */
+  border: 2px solid rgb(0, 0, 0); /* Cambia el color del borde al pasar el ratón */
+  color: black; /* Cambia el color del texto al pasar el ratón */
+}
+
+
+/* Estilos para el contenedor principal 'zapa' */
+.zapa {
+  max-width: 1400px; /* Establece el ancho máximo del contenedor 'zapa' */
+  margin: auto; /* Centra el contenedor 'zapa' horizontalmente */
+  padding: 20px; /* Añade espacio de relleno al contenedor 'zapa' */
+}
+
+/* Estilos para el color del título */
+.color-titulo {
+  color: rgb(36, 255, 182); /* Establece el color del texto para el título con la clase 'color-titulo' */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  background-color: rgb(10, 10, 10); /* Establece el color de fondo del encabezado */
+  padding-bottom: 0px; /* Establece el espacio inferior del encabezado */
+}
+
+/* Estilos para el logotipo en el encabezado */
+header .logo {
+  padding: 10px; /* Añade espacio de relleno al logotipo en el encabezado */
+  font-weight: bold; /* Establece el grosor de la fuente del logotipo en el encabezado */
+  color: red; /* Establece el color del texto para el logotipo en el encabezado */
+  font-size: 1.6em; /* Establece el tamaño de fuente para el logotipo en el encabezado */
+}
+
+header .titulo {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en columna y centrar elementos */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  text-decoration: underline; /* Subraya el texto del contenedor */
+  align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
+  color: rgb(36, 255, 182); /* Establece el color del texto en RGB (rojo: 36, verde: 255, azul: 182) */
+}
+
+
+header nav {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en fila (horizontal) */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+  padding-bottom: 20px; /* Añade espacio inferior al contenedor */
+}
+
+header a {
+  margin: 0 50px; /* Establece márgenes a los lados del enlace (izquierda y derecha) */
+  padding: 5px 12px; /* Añade relleno al enlace (arriba y abajo, izquierda y derecha) */
+  text-decoration: none; /* Elimina la decoración de subrayado predeterminada de los enlaces */
+  font-weight: bold; /* Establece el peso de la fuente en negrita */
+  color: rgb(255, 255, 255); /* Establece el color del texto en RGB (blanco) */
+}
+
+header a:hover {
+  color: rgb(36, 255, 182); /* Cambia el color del texto a RGB (36, 255, 182) cuando el enlace está en estado de "hover" (sobre él con el mouse) */
+}
+
+
+#subtitulo {
+  font-size: 7.6em; /* Establece el tamaño de la fuente del elemento con el ID "subtitulo" */
+}
+
+.hist {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en fila (horizontal) */
+  align-items: center; /* Centra los elementos hijos verticalmente dentro del contenedor */
+  justify-content: center; /* Centra los elementos hijos horizontalmente dentro del contenedor */
+  padding-bottom: 20px; /* Añade espacio inferior al contenedor */
+  text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  height: 100vh; /* Establece la altura del contenedor al 100% del alto de la ventana */
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url("/Inicio/imagenes/fondoheadder.png");/* Establece una imagen de fondo y un degradado lineal */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir completamente el contenedor */
+    background-position: center center; /* Centra la imagen de fondo en el contenedor */
+  }
+
+  .hist h1 {
+    color: rgb(255, 255, 255); /* Establece el color del texto dentro de los elementos h1 dentro del contenedor con la clase "hist" en RGB (blanco) */
+  }
+
+/* Estilos para la sección con id 'nike' y clase 'zapa' */
+#nike .zapa {
+  text-align: center; /* Alineación del texto al centro */
+  padding: 50px 12px; /* Relleno de 50px arriba/abajo y 12px izquierda/derecha */
+}
+
+/* Estilos para la sección con id 'adidas' y clase 'zapa' */
+#adidas .zapa {
+  text-align: center; /* Alineación del texto al centro */
+  padding: 50px 12px; /* Relleno de 50px arriba/abajo y 12px izquierda/derecha */
+}
+
+/* Estilos para la sección con id 'newbalance' y clase 'zapa' */
+#newbalance .zapa {
+  text-align: center; /* Alineación del texto al centro */
+  padding: 50px 12px; /* Relleno de 50px arriba/abajo y 12px izquierda/derecha */
+}
+
+/* Estilos para la sección con id 'crocs' y clase 'zapa' */
+#crocs .zapa {
+  text-align: center; /* Alineación del texto al centro */
+  padding: 50px 12px; /* Relleno de 50px arriba/abajo y 12px izquierda/derecha */
+}
+
+/* Estilos para la sección con id 'otros' */
+#otros {
+  background-color: rgba(30, 30, 30); /* Color de fondo gris oscuro con transparencia */
+  color: white; /* Color del texto blanco */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para los elementos con clase 'zapa' dentro de la sección 'otros' */
+#otros .zapa {
+  padding: 257px 12px; /* Relleno de 257px arriba/abajo y 12px izquierda/derecha */
+}
+
+/* Estilos para los elementos h2 dentro de la sección 'otros' */
+#otros h2 {
+  margin-top: 0; /* Elimina el margen superior por defecto */
+  font-size: 3.2em; /* Tamaño de la fuente */
+}
+
+/* Estilos para los elementos con clase 'carta' dentro de la sección 'otros' */
+#otros .carta {
+  background-position: center center; /* Posición del fondo centrada */
+  background-size: cover; /* Tamaño del fondo cubriendo el contenedor */
+  padding: 50px; /* Relleno de 50px */
+  margin: 20px; /* Margen de 20px alrededor */
+  border-radius: 15px; /* Radio de borde para esquinas redondeadas */
+}
+
+
+/* Estilos para el primer elemento con clase 'carta' */
+.carta:first-child {
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ), url(/Inicio/imagenes/Supreme-pagina.png); /* Fondo con degradado y una imagen */
+}
+
+/* Estilos para el segundo elemento con clase 'carta' */
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ), url(/Inicio/imagenes/Louis-pagina.png); /* Fondo con degradado y una imagen */
+}
+
+/* Estilos para el tercer elemento con clase 'carta' */
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ), url(/Inicio/imagenes/vans.png); /* Fondo con degradado y una imagen */
+}
+
+/* Estilo general del pie de página */
+footer {
+  background-color: grey; /* Color de fondo gris */
+  padding: 15px; /* Relleno de 15px en todas las direcciones */
+  justify-content: space-between; /* Distribución del espacio entre los elementos */
+  align-items: center; /* Alineación de los elementos al centro */
+  line-height: 1.5em; /* Altura de línea de 1.5 veces el tamaño de la fuente */
+}
+
+/* Estilo para la sección de información en el pie de página */
+.footer .info {
+  justify-content: space-between; /* Distribución del espacio entre los elementos */
+  align-items: center; /* Alineación de los elementos al centro */
+}
+
+/* Estilo para los grupos de información en el pie de página */
+.info-group {
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribución del espacio entre los elementos */
+  margin: 2px 1px; /* Márgenes superior e inferior de 2px, márgenes izquierdo y derecho de 1px */
+  padding: 1px 5px; /* Relleno de 1px arriba y abajo, 5px izquierda y derecha */
+}
+
+/* Estilos para la interacción al pasar el ratón sobre los enlaces en el grupo de información */
+.info-group a:hover {
+  color: rgb(0, 238, 255); /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para la sección de idiomas en el pie de página */
+.idiomas {
+  margin: 0; /* Eliminar márgenes */
+  display: flex; /* Mostrar como un contenedor flexible */
+  color: black; /* Color del texto negro */
+  justify-content: space-between; /* Distribución del espacio entre los elementos */
+}
+
+/* Estilos para los enlaces en la sección de idiomas */
+.idiomas a {
+  margin-right: 15px; /* Márgen derecho de 15px entre enlaces */
+}
+
+/* Estilos para los elementos span en la sección de idiomas */
+.idiomas span {
+  display: inline-block; /* Mostrar como bloque en línea */
+  margin: 2px 1px; /* Márgenes superior e inferior de 2px, márgenes izquierdo y derecho de 1px */
+  padding: 5px 10px; /* Relleno de 5px arriba y abajo, 10px izquierda y derecha */
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribución del espacio entre los elementos */
+}
+
+/* Estilos para los párrafos en el pie de página */
+footer p {
+  margin: 0; /* Eliminar márgenes */
+  color: rgb(31, 31, 31); /* Color del texto gris oscuro */
+}
+
+
+/* Estilos para la clase .copy dentro de la sección del pie de página */
+footer .copy {
+  height: 50px; /* Altura del contenedor */
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar contenido horizontalmente */
+  align-items: flex-end; /* Alinear contenido al final verticalmente */
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Estilos para reglas de medios con un ancho de pantalla mínimo de 720px */
+@media (min-width: 720px) {
+  header {
+      position: fixed; /* Elemento fijo en la parte superior de la pantalla */
+      width: 100%; /* Ancho completo */
+  }
+
+  header .logo {
+      flex-direction: row; /* Dirección de diseño de columna a fila */
+      justify-content: space-between; /* Espacio uniforme entre elementos */
+      display: flex; /* Mostrar como contenedor flexible */
+      flex-direction: column; /* Dirección de diseño de fila a columna */
+      align-items: center; /* Alinear elementos al centro horizontalmente */
+  }
+
+  header nav {
+      flex-direction: row; /* Dirección de diseño de columna a fila */
+      padding-bottom: 0; /* Sin relleno en la parte inferior */
+  }
+
+  #nike .zapa {
+      display: flex; /* Mostrar como contenedor flexible */
+      justify-content: center; /* Alinear contenido al centro horizontalmente */
+  }
+}
+
+ /* Estilos para la sección con el identificador "nike" */
+
+#nike .texto {
+  width: 50%; /* Establece que el ancho del elemento será el 50% del ancho de su contenedor. */
+  max-width: 600px; /* Establece que el ancho máximo del elemento será de 600 píxeles. */
+  text-align: initial; /* Establece la alineación del texto como "inicial". */
+  padding-left: 50px; /* Agrega un relleno de 50 píxeles en el lado izquierdo del elemento. */
+  flex-direction: column; /* Establece la dirección de los elementos secundarios como una columna. */
+  justify-content: center; /* Centra los elementos secundarios verticalmente dentro del contenedor. */
+  text-align: center; /* Centra el texto dentro del contenedor. */
+}
+
+#nike h2 {
+  margin-top: 0px; /* Elimina el margen superior del elemento h2. */
+}
+
+#nike .img-nike {
+  background-image: url(/Inicio/imagenes/Nike.png); /* Establece una imagen de fondo para el elemento. */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
+  background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
+  height: 500px; /* Establece la altura del elemento en 500 píxeles. */
+  width: 400px; /* Establece el ancho del elemento en 400 píxeles. */
+}
+
+
+  
+#adidas .zapa {
+  display: flex; /* Establece el modelo de caja flexible para el contenedor. */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente dentro del contenedor. */
+}
+
+#adidas .texto1 {
+  width: 50%; /* Establece que el ancho del elemento será el 50% del ancho de su contenedor. */
+  max-width: 600px; /* Establece que el ancho máximo del elemento será de 600 píxeles. */
+  text-align: left; /* Alinea el texto a la izquierda dentro del contenedor. */
+  padding-left: 50px; /* Agrega un relleno de 50 píxeles en el lado izquierdo del elemento. */
+  flex-direction: column; /* Establece la dirección de los elementos secundarios como una columna. */
+  justify-content: center; /* Centra los elementos secundarios verticalmente dentro del contenedor. */
+  text-align: center; /* Centra el texto dentro del contenedor. */
+}
+
+#adidas h2 {
+  margin-top: 0px; /* Elimina el margen superior del elemento h2. */
+}
+
+#adidas .img-adidas {
+  background-image: url(/Inicio/imagenes/adidas.png); /* Establece una imagen de fondo para el elemento. */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
+  background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
+  height: 500px; /* Establece la altura del elemento en 500 píxeles. */
+  width: 500px; /* Establece el ancho del elemento en 500 píxeles. */
+  order: 1; /* Establece el orden del elemento en la secuencia de visualización. */
+  margin: 50px; /* Establece un margen exterior de 50 píxeles alrededor del elemento. */
+}
+
+#newbalance .zapa {
+  display: flex; /* Establece el modelo de caja flexible para el contenedor. */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente dentro del contenedor. */
+}
+
+#newbalance .texto2 {
+  width: 50%; /* Establece que el ancho del elemento será el 50% del ancho de su contenedor. */
+  max-width: 600px; /* Establece que el ancho máximo del elemento será de 600 píxeles. */
+  text-align: left; /* Alinea el texto a la izquierda dentro del contenedor. */
+  padding-left: 50px; /* Agrega un relleno de 50 píxeles en el lado izquierdo del elemento. */
+  flex-direction: column; /* Establece la dirección de los elementos secundarios como una columna. */
+  justify-content: center; /* Centra los elementos secundarios verticalmente dentro del contenedor. */
+  text-align: center; /* Centra el texto dentro del contenedor. */
+}
+
+#newbalance h2 {
+  margin-top: 0px; /* Elimina el margen superior del elemento h2. */
+}
+
+#newbalance .img-newbalance {
+  background-image: url(/Inicio/imagenes/newbalance.png); /* Establece una imagen de fondo para el elemento. */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
+  background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
+  height: 350px; /* Establece la altura del elemento en 350 píxeles. */
+  width: 500px; /* Establece el ancho del elemento en 500 píxeles. */
+}
+
+#crocs .zapa {
+  /* Establece un contenedor flexible con el contenido centrado horizontalmente */
+  display: flex;
+  justify-content: center;
+}
+
+#crocs .texto3 {
+  /* Define estilos para el elemento con clase "texto3" dentro de la sección con id "crocs" */
+  width: 50%; /* Ancho del elemento, representado como el 50% del ancho del contenedor padre */
+  max-width: 600px; /* Ancho máximo del elemento para evitar que crezca demasiado en pantallas grandes */
+  text-align: left; /* Alineación del texto a la izquierda dentro del elemento */
+  padding-left: 50px; /* Espaciado interno a la izquierda del elemento */
+  flex-direction: column; /* Establece el diseño de columna para los elementos secundarios */
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Alinea el texto al centro dentro del elemento */
+}
+
+  
+#crocs h2 {
+  /* Establece el margen superior del elemento h2 dentro de la sección con id "crocs" */
+  margin-top: 0px;
+}
+
+#crocs .img-crocs {
+  /* Define estilos para la imagen con clase "img-crocs" dentro de la sección con id "crocs" */
+  background-image: url(/Inicio/imagenes/Crocs.png); /* Establece la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+  background-position: center center; /* Posición de la imagen en el contenedor */
+  height: 350px; /* Altura de la imagen */
+  width: 600px; /* Ancho de la imagen */
+  order: 1; /* Define el orden de visualización, utilizado en contenedores flexibles */
+  margin: 40px; /* Establece el margen alrededor de la imagen */
+}
+
+#otros .otros {
+  /* Define estilos para el elemento con clase "otros" dentro de la sección con id "otros" */
+  display: flex; /* Establece un contenedor flexible con los elementos secundarios en línea */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente */
+}
+
+#otros h3 {
+  /* Establece el margen superior del elemento h3 dentro de la sección con id "otros" */
+  margin-top: 0px;
+}
+
+#otros p {
+  /* Define estilos para los párrafos dentro de la sección con id "otros" */
+  display: block; /* Establece la visualización como bloque */
+  margin-bottom: 30px; /* Establece el margen inferior para separar párrafos */
+}
+
+#otros .carta {
+  /* Define estilos para el elemento con clase "carta" dentro de la sección con id "otros" */
+  padding: 15px; /* Establece el relleno alrededor del elemento */
+}
+
