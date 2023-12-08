@@ -78,7 +78,7 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 ## Capturas de Pantalla
 
 **Sección de Historia:**
-![Sección de Historia]([Iniciohtml1](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadme/Inciohtml1.png))
+![Sección de Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadme/Inciohtml1.png)
 
 **Sección de Nike:**
 ![Sección de Nike](screenshots/seccion_nike.png)
