@@ -78,7 +78,7 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 ## Capturas de Pantalla
 
 **Sección de Historia:**
-![Sección de Historia](B2-Pàgina Web Responssive/ImagenesReadme/Iniciohtml1.png)
+![Sección de Historia](Iniciohtml1)
 
 **Sección de Nike:**
 ![Sección de Nike](screenshots/seccion_nike.png)
