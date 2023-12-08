@@ -129,8 +129,25 @@ inicio.css
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](/ruta/a/imagen1.png)
-![Captura de Pantalla 2](/ruta/a/imagen2.png)
+![CSS General](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Estilo-General.png)
+
+![CSS Botones](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Botones.png)
+
+![CSS Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
+
+![CSS Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header1.png) ![Header2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header2.png)
+
+![CSS Historia](/ruta/a/imagen1.png)
+
+![CSS Zapatillas](/ruta/a/imagen1.png)
+
+![CSS Otros](/ruta/a/imagen1.png)
+
+![CSS Carta](/ruta/a/imagen1.png)
+
+![CSS Footer](/ruta/a/imagen1.png)
+
+![CSS Responsive](/ruta/a/imagen1.png)
 ...
 
 ## División de Tareas
