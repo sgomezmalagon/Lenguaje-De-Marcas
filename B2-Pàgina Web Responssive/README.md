@@ -139,15 +139,15 @@ inicio.css
 **Sección de Header:**
 ![CSS Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header1.png) ![Header2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header2.png)
 
-![CSS Historia](/ruta/a/imagen1.png)
+![CSS Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Historia.png)
 
-![CSS Zapatillas](/ruta/a/imagen1.png)
+![CSS Zapatillas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
 
-![CSS Otros](/ruta/a/imagen1.png)
+![CSS Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Otros.PNG)
 
-![CSS Carta](/ruta/a/imagen1.png)
+![CSS Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Carta.png)
 
-![CSS Footer](/ruta/a/imagen1.png)
+![CSS Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Footer.png) ![CSS Footer2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Footer2.png)
 
 ![CSS Responsive](/ruta/a/imagen1.png)
 ...
