@@ -77,19 +77,24 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 
 ## Capturas de Pantalla
 **Sección de Header:**
-![Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadme/Inciohtml1.png)
+![Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inciohtml1.png)
 
 **Sección de Historia:**
-![Sección de Historia]()
+![Sección de Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_historia.png)
 **Sección de Nike:**
-![Sección de Nike](screenshots/seccion_nike.png)
+![Sección de Nike](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Nike.png)
 
 **Sección de Adidas:**
-![Sección de Adidas](screenshots/seccion_adidas.png)
+![Sección de Adidas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Adidas.png)
 
+**Sección de NewBalance:**
+![Sección de New Balance](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio-NewBalance.png)
+**Sección de Crocs**
+![Sección de Crocs](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Incio_Crocs.png)
 **Sección de Otros:**
-![Sección de Otros](screenshots/seccion_otros.png)
-
+![Sección de Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Otros-png.PNG)
+**Sección de Footer:**
+![Sección de Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_Footer.png)
 ## División de Tareas
 
 ### Trabajo Conjunto
