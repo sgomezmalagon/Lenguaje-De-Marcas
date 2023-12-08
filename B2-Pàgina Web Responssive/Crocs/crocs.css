@@ -1,0 +1,444 @@
+/* Estilos generales para todos los elementos */
+* {
+  box-sizing: border-box; /* Ajusta el modelo de caja para incluir el borde en el tamaño total */
+  font-family: 'Times New Roman', Times, serif; /* Establece la fuente predeterminada para todos los elementos */
+}
+
+/* Estilos para el elemento HTML */
+html {
+  scroll-behavior: smooth; /* Suaviza el desplazamiento de la página al hacer clic en enlaces internos */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  background-color: rgb(165, 165, 165); /* Establece el color de fondo del cuerpo */
+}
+
+/* Estilos para encabezados h1 */
+h1 {
+  font-size: 2.7em; /* Establece el tamaño de fuente para h1 */
+}
+
+/* Estilos para encabezados h2 */
+h2 {
+  font-size: 2.7em; /* Establece el tamaño de fuente para h2 */
+}
+
+/* Estilos para encabezados h3 */
+h3 {
+  font-size: 2em; /* Establece el tamaño de fuente para h3 */
+}
+
+/* Estilos para párrafos */
+p {
+  font-size: 1.25em; /* Establece el tamaño de fuente para párrafos */
+}
+
+/* Estilos para el contenedor principal 'zapa' */
+.zapa {
+  max-width: 1400px; /* Establece el ancho máximo del contenedor 'zapa' */
+  margin: auto; /* Centra el contenedor 'zapa' horizontalmente */
+  padding: 20px; /* Añade espacio de relleno al contenedor 'zapa' */
+}
+
+/* Estilos para el color del título */
+.color-titulo {
+  color: rgb(36, 255, 182); /* Establece el color del texto para el título con la clase 'color-titulo' */
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  background-color: rgb(10, 10, 10); /* Establece el color de fondo del encabezado */
+  padding-bottom: 0px; /* Establece el espacio inferior del encabezado */
+}
+
+/* Estilos para el logotipo en el encabezado */
+header .logo {
+  padding: 10px; /* Añade espacio de relleno al logotipo en el encabezado */
+  font-weight: bold; /* Establece el grosor de la fuente del logotipo en el encabezado */
+  color: red; /* Establece el color del texto para el logotipo en el encabezado */
+  font-size: 1.6em; /* Establece el tamaño de fuente para el logotipo en el encabezado */
+}
+
+header .titulo {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en columna y centrar elementos */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  text-decoration: underline; /* Subraya el texto del contenedor */
+  align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
+  color: rgb(36, 255, 182); /* Establece el color del texto en RGB (rojo: 36, verde: 255, azul: 182) */
+}
+
+
+header nav {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en fila (horizontal) */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+  padding-bottom: 20px; /* Añade espacio inferior al contenedor */
+}
+
+header a {
+  margin: 0 50px; /* Establece márgenes a los lados del enlace (izquierda y derecha) */
+  padding: 5px 12px; /* Añade relleno al enlace (arriba y abajo, izquierda y derecha) */
+  text-decoration: none; /* Elimina la decoración de subrayado predeterminada de los enlaces */
+  font-weight: bold; /* Establece el peso de la fuente en negrita */
+  color: rgb(255, 255, 255); /* Establece el color del texto en RGB (blanco) */
+}
+
+header a:hover {
+  color: rgb(36, 255, 182); /* Cambia el color del texto a RGB (36, 255, 182) cuando el enlace está en estado de "hover" (sobre él con el mouse) */
+}
+
+
+#subtitulo {
+  font-size: 7.6em; /* Establece el tamaño de la fuente del elemento con el ID "subtitulo" */
+}
+
+.hist {
+  display: flex; /* Establece el modelo de caja flexible para permitir el diseño en fila (horizontal) */
+  align-items: center; /* Centra los elementos hijos verticalmente dentro del contenedor */
+  justify-content: center; /* Centra los elementos hijos horizontalmente dentro del contenedor */
+  padding-bottom: 20px; /* Añade espacio inferior al contenedor */
+  text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+  flex-direction: column; /* Organiza los elementos en columna dentro del contenedor */
+  height: 100vh; /* Establece la altura del contenedor al 100% del alto de la ventana */
+  background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url("/Crocs/Imagenes/Crocs_Header.png"); /* Establece una imagen de fondo y un degradado lineal */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir completamente el contenedor */
+  background-position: center center; /* Centra la imagen de fondo en el contenedor */
+}
+
+.hist h1 {
+  color: rgb(255, 255, 255); /* Establece el color del texto dentro de los elementos h1 dentro del contenedor con la clase "hist" en RGB (blanco) */
+}
+
+#rayomcqueen .zapa {
+  text-align: center; /* Centra el contenido de los elementos con la clase "zapa" dentro de la sección con el ID "rayomcqueen" */
+  padding: 50px 12px; /* Agrega relleno (espacio) de 50 píxeles arriba y abajo, 12 píxeles a los lados, al contenido dentro de la sección con el ID "rayomcqueen" */
+}
+
+#mate .zapa {
+  text-align: center; /* Centra el contenido de los elementos con la clase "zapa" dentro de la sección con el ID "mate" */
+  padding: 50px 12px; /* Agrega relleno (espacio) de 50 píxeles arriba y abajo, 12 píxeles a los lados, al contenido dentro de la sección con el ID "mate" */
+}
+
+#shrek .zapa {
+  text-align: center; /* Centra el contenido de los elementos con la clase "zapa" dentro de la sección con el ID "shrek" */
+  padding: 50px 12px; /* Agrega relleno (espacio) de 50 píxeles arriba y abajo, 12 píxeles a los lados, al contenido dentro de la sección con el ID "shrek" */
+}
+
+#mcdonalds .zapa {
+  text-align: center; /* Centra el contenido de los elementos con la clase "zapa" dentro de la sección con el ID "mcdonalds" */
+  padding: 50px 12px; /* Agrega relleno (espacio) de 50 píxeles arriba y abajo, 12 píxeles a los lados, al contenido dentro de la sección con el ID "mcdonalds" */
+}
+
+#masmodelos {
+  background-color: rgba(30, 30, 30); /* Establece el color de fondo de la sección con el ID "masmodelos" en un tono oscuro */
+  color: white; /* Establece el color del texto dentro de la sección con el ID "masmodelos" en blanco */
+  text-align: center; /* Centra el texto dentro de la sección con el ID "masmodelos" */
+}
+
+
+#masmodelos .zapa {
+  padding: 150px 0px;  /* Establece un relleno superior e inferior de 150px y ningún relleno a los lados */
+}
+
+#masmodelos h2 {
+  margin-top: 0;  /* Elimina el margen superior del elemento h2 */
+  font-size: 3.2em;  /* Establece el tamaño de fuente del h2 en 3.2em */
+}
+
+#masmodelos .carta {
+  background-position: center center;  /* Establece la posición del fondo en el centro */
+  background-size: cover;  /* Ajusta el tamaño del fondo para cubrir completamente el contenedor */
+  padding: 50px;  /* Establece un relleno de 50px en todos los lados del contenedor .carta */
+  margin: 20px;  /* Establece un margen de 20px en todos los lados del contenedor .carta */
+  border-radius: 15px;  /* Agrega un radio de borde de 15px para redondear las esquinas del contenedor .carta */
+}
+
+.carta:first-child {
+  /* Establece un fondo para el primer elemento con un degradado y una imagen específica */
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ),
+  url(/Crocs/Imagenes/Crocs_EchoU.png);
+}
+
+.carta:nth-child(2) {
+  /* Establece un fondo para el segundo elemento con un degradado y una imagen específica */
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ),
+  url(/Crocs/Imagenes/Crocs_AllTerrain.png);
+}
+
+.carta:nth-child(3) {
+  /* Establece un fondo para el tercer elemento con un degradado y una imagen específica */
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  ),
+  url(/Crocs/Imagenes/Crocs_Duet.png);
+}
+
+
+/* Estilo del pie de página */
+footer {
+  background-color: grey; /* Fondo gris para el pie de página */
+  padding: 15px; /* Relleno de 15px alrededor del contenido del pie de página */
+  justify-content: space-between; /* Distribuye el contenido del pie de página de manera uniforme en el eje principal */
+  align-items: center; /* Centra los elementos del pie de página en el eje transversal */
+  line-height: 1.5em; /* Altura de línea del texto en el pie de página */
+}
+
+/* Estilo de la información dentro del pie de página */
+.footer .info {
+  justify-content: space-between; /* Distribuye el contenido de la información de manera uniforme en el eje principal */
+  align-items: center; /* Centra los elementos de la información en el eje transversal */
+}
+
+/* Estilo de un grupo de información */
+.info-group {
+  display: flex; /* Muestra los elementos del grupo en línea */
+  justify-content: space-around; /* Distribuye los elementos del grupo de manera uniforme en el eje principal */
+  margin: 2px 1px; /* Márgenes superior e inferior de 2px, márgenes izquierdo y derecho de 1px */
+  padding: 1px 5px; /* Relleno de 1px arriba y abajo, 5px a la izquierda y derecha */
+}
+
+/* Estilo de enlaces dentro de un grupo de información cuando se realiza un hover */
+.info-group a:hover {
+  color: rgb(0, 238, 255); /* Cambia el color del texto al realizar un hover sobre un enlace en el grupo de información */
+}
+
+/* Estilo del contenedor de idiomas en el pie de página */
+.idiomas {
+  margin: 0; /* Elimina los márgenes del contenedor de idiomas */
+  display: flex; /* Muestra los elementos de idiomas en línea */
+  color: black; /* Color del texto en el contenedor de idiomas */
+  justify-content: space-between; /* Distribuye los elementos de idiomas de manera uniforme en el eje principal */
+}
+
+
+/* Estilo de los enlaces dentro del contenedor de idiomas en el pie de página */
+.idiomas a {
+  margin-right: 15px; /* Márgen a la derecha de 15px para separar los enlaces de idiomas */
+}
+
+/* Estilo de los elementos de span dentro del contenedor de idiomas */
+.idiomas span {
+  display: inline-block; /* Hace que los elementos de span se comporten como bloques en línea */
+  margin: 2px 1px; /* Márgenes superior e inferior de 2px, márgenes izquierdo y derecho de 1px */
+  padding: 5px 10px; /* Relleno de 5px arriba y abajo, 10px a la izquierda y derecha */
+  display: flex; /* Muestra los elementos de span en línea */
+  justify-content: space-around; /* Distribuye uniformemente los elementos de span en el eje principal */
+}
+
+/* Estilo de los párrafos dentro del pie de página */
+footer p {
+  margin: 0; /* Elimina los márgenes del párrafo */
+  color: rgb(31, 31, 31); /* Color del texto en los párrafos del pie de página */
+}
+
+/* Estilo del contenedor de derechos de autor en el pie de página */
+footer .copy {
+  height: 50px; /* Altura del contenedor de derechos de autor */
+  display: flex; /* Muestra los elementos del contenedor de derechos de autor en línea */
+  justify-content: center; /* Centra los elementos del contenedor de derechos de autor en el eje principal */
+  align-items: flex-end; /* Alinea los elementos del contenedor de derechos de autor en la parte inferior del eje transversal */
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Estilos aplicados cuando el ancho de la pantalla es igual o mayor a 720px */
+@media (min-width: 720px) {
+  
+  /* Establece la posición fija y el ancho del 100% para el encabezado */
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Estilos para el logotipo en el encabezado */
+  header .logo {
+    flex-direction: row; /* Distribuye los elementos en una fila */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos del logotipo */
+    display: flex; /* Muestra los elementos del logotipo en línea */
+    flex-direction: column; /* Distribuye los elementos del logotipo en una columna */
+    align-items: center; /* Centra los elementos del logotipo en el eje transversal */
+  }
+  
+  /* Estilos para la navegación en el encabezado */
+  header nav {
+    flex-direction: row; /* Distribuye los elementos de navegación en una fila */
+    padding-bottom: 0; /* Elimina el espacio inferior en la navegación */
+  }
+  
+  /* Estilos específicos para el elemento con id 'rayomcqueen' y clase 'zapa' */
+  #rayomcqueen .zapa {
+    display: flex; /* Muestra el elemento con flexbox */
+    justify-content: center; /* Centra el contenido del elemento horizontalmente */
+  }
+}
+
+  
+  /* Estilos para el elemento con id 'rayomcqueen' y clase 'texto' */
+#rayomcqueen .texto {
+  width: 50%; /* Ancho del 50% del contenedor padre */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: initial; /* Alineación de texto inicial */
+  padding-left: 50px; /* Relleno izquierdo de 50px */
+  flex-direction: column; /* Distribuye los elementos en una columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Alineación de texto centrada */
+}
+
+/* Estilos para el elemento con id 'rayomcqueen' y etiqueta 'h2' */
+#rayomcqueen h2 {
+  margin-top: 0px; /* Margen superior de 0px */
+}
+
+/* Estilos para el elemento con id 'rayomcqueen' y clase 'img-rayomcqueen' */
+#rayomcqueen .img-rayomcqueen {
+  background-image: url(/Crocs/Imagenes/Crocs_Mqueen.png); /* Imagen de fondo con la ruta especificada */
+  background-size: cover; /* La imagen de fondo cubre todo el contenedor */
+  background-position: center center; /* Posición del centro de la imagen de fondo */
+  height: 500px; /* Altura de 500px */
+  width: 400px; /* Ancho de 400px */
+  /* Alt para la imagen de Rayo McQueen */
+  content: "Imagen de zapato Crocs con diseño inspirado en Rayo McQueen"; /* En este caso, debido al formato que usamos, decidimos usar content como otra forma de usar alt */
+}
+
+  
+  
+  /* Estilos para el elemento con id 'mate' y clase 'zapa' */
+#mate .zapa {
+  display: flex; /* Muestra como un contenedor flexible */
+  justify-content: flex-start; /* Justificación del contenido al principio del contenedor */
+}
+
+/* Estilos para el elemento con id 'mate' y clase 'texto1' */
+#mate .texto1 {
+  width: 50%; /* Ancho del 50% del contenedor padre */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alineación de texto a la izquierda */
+  padding-left: 0px; /* Relleno izquierdo de 0px */
+  flex-direction: column; /* Distribuye los elementos en una columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Alineación de texto centrada */
+}
+
+/* Estilos para el elemento con id 'mate' y etiqueta 'h2' */
+#mate h2 {
+  margin-top: 0px; /* Margen superior de 0px */
+}
+
+/* Estilos para el elemento con id 'mate' y clase 'img-mate' */
+#mate .img-mate {
+  background-image: url(/Crocs/Imagenes/Crocs_Mate.png); /* Imagen de fondo con la ruta especificada */
+  background-size: cover; /* La imagen de fondo cubre todo el contenedor */
+  background-position: center center; /* Posición del centro de la imagen de fondo */
+  height: 500px; /* Altura de 500px */
+  width: 500px; /* Ancho de 500px */
+  order: 1; /* Cambia el orden de presentación en el diseño flexible */
+  margin: 40px; /* Márgenes exteriores de 40px */
+  /* Alt para la imagen de Mate */
+  content: "Imagen de zapato Crocs con diseño inspirado en Mate de Cars";
+}
+
+  /* Estilos para el elemento con id 'shrek' y clase 'zapa' */
+#shrek .zapa {
+  display: flex; /* Muestra como un contenedor flexible */
+  justify-content: center; /* Justificación del contenido al centro del contenedor */
+}
+
+/* Estilos para el elemento con id 'shrek' y clase 'texto2' */
+#shrek .texto2 {
+  width: 50%; /* Ancho del 50% del contenedor padre */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alineación de texto a la izquierda */
+  padding-left: 50px; /* Relleno izquierdo de 50px */
+  flex-direction: column; /* Distribuye los elementos en una columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Alineación de texto centrada */
+}
+
+/* Estilos para el elemento con id 'shrek' y etiqueta 'h2' */
+#shrek h2 {
+  margin-top: 0px; /* Margen superior de 0px */
+}
+
+/* Estilos para el elemento con id 'shrek' y clase 'img-shrek' */
+#shrek .img-shrek {
+  background-image: url(/Crocs/Imagenes/Crocs_Shrek.png); /* Imagen de fondo con la ruta especificada */
+  background-size: cover; /* La imagen de fondo cubre todo el contenedor */
+  background-position: center center; /* Posición del centro de la imagen de fondo */
+  height: 350px; /* Altura de 350px */
+  width: 500px; /* Ancho de 500px */
+  /* Alt para la imagen de Shrek */
+  content: "Imagen de zapato Crocs con diseño inspirado en Shrek";
+}
+
+  
+  
+  /* Estilos para el elemento con id 'mcdonalds' y clase 'zapa' */
+#mcdonalds .zapa {
+  display: flex; /* Muestra como un contenedor flexible */
+  justify-content: flex-start; /* Justificación del contenido al inicio del contenedor */
+}
+
+/* Estilos para el elemento con id 'mcdonalds' y clase 'texto3' */
+#mcdonalds .texto3 {
+  width: 50%; /* Ancho del 50% del contenedor padre */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alineación de texto a la izquierda */
+  padding-left: 0px; /* Relleno izquierdo de 0px */
+  flex-direction: column; /* Distribuye los elementos en una columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center; /* Alineación de texto centrada */
+}
+
+/* Estilos para el elemento con id 'mcdonalds' y etiqueta 'h2' */
+#mcdonalds h2 {
+  margin-top: 0px; /* Margen superior de 0px */
+}
+
+/* Estilos para el elemento con id 'mcdonalds' y clase 'img-mcdonalds' */
+#mcdonalds .img-mcdonalds {
+  background-image: url(/Crocs/Imagenes/Crocs_MCdonad.png); /* Imagen de fondo con la ruta especificada */
+  background-size: cover; /* La imagen de fondo cubre todo el contenedor */
+  background-position: center center; /* Posición del centro de la imagen de fondo */
+  height: 400px; /* Altura de 400px */
+  width: 600px; /* Ancho de 600px */
+  order: 1; /* Orden de apilamiento en el diseño flexible */
+  margin: 40px; /* Margen de 40px */
+  /* Alt para la imagen de McDonald's */
+  content: "Imagen de zapato Crocs con diseño inspirado en McDonald's";
+}
+
+
+ /* Estilos para el elemento con id 'masmodelos' y clase 'otros' */
+#masmodelos .otros {
+  display: flex; /* Muestra como un contenedor flexible */
+  justify-content: center; /* Centra los elementos hijos horizontalmente */
+}
+
+/* Estilos para los elementos h3 dentro de #masmodelos */
+#masmodelos h3 {
+  margin-top: 0px; /* Elimina el margen superior */
+}
+
+/* Estilos para los elementos p dentro de #masmodelos */
+#masmodelos p {
+  display: block; /* Muestra como un bloque */
+  margin-bottom: 30px; /* Añade un margen inferior de 30px */
+}
+
+/* Estilos para los elementos con clase 'carta' dentro de #masmodelos */
+#masmodelos .carta {
+  padding: 15px; /* Añade un relleno de 15px a todos los lados */
+}
