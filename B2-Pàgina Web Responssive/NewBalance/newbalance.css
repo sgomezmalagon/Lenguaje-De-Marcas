@@ -1,0 +1,443 @@
+/* Estilo aplicado a todos los elementos */
+* {
+  box-sizing: border-box; /* Utilizar el modelo de caja border-box */
+  font-family: 'Times New Roman', Times, serif; /* Familia de fuente predeterminada para todos los elementos */
+}
+
+/* Estilo específico para el elemento 'html' */
+html {
+  scroll-behavior: smooth; /* Efecto de desplazamiento suave */
+}
+
+/* Estilo para el elemento 'body' */
+body {
+  margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+  background-color: rgb(165, 165, 165); /* Color de fondo del cuerpo */
+}
+
+/* Estilo para elementos 'h1' */
+h1 {
+  font-size: 2.7em; /* Tamaño de fuente para h1: 2.7 veces el tamaño predeterminado */
+}
+
+/* Estilo para elementos 'h2' */
+h2 {
+  font-size: 2.7em; /* Tamaño de fuente para h2: 2.7 veces el tamaño predeterminado */
+}
+
+/* Estilo para elementos 'h3' */
+h3 {
+  font-size: 2em; /* Tamaño de fuente para h3: 2 veces el tamaño predeterminado */
+}
+
+/* Estilo para párrafos */
+p {
+  font-size: 1.25em; /* Tamaño de fuente para párrafos: 1.25 veces el tamaño predeterminado */
+}
+
+/* Estilo para listas no ordenadas */
+ul {
+  list-style: none; /* Eliminar los estilos de viñetas de las listas no ordenadas */
+}
+
+/* Estilo para elementos de lista */
+li {
+  font-size: 1.25em; /* Tamaño de fuente para elementos de lista: 1.25 veces el tamaño predeterminado */
+}
+
+
+/* Estilo para elementos con clase 'zapa' */
+.zapa {
+  max-width: 1400px; /* Ancho máximo del elemento: 1400 píxeles */
+  margin: auto; /* Centrar el elemento en el contenedor principal */
+  padding: 20px; /* Relleno interno: 20 píxeles en todos los lados */
+}
+
+/* Estilo para elementos con clase 'color-titulo' */
+.color-titulo {
+  color: rgb(36, 255, 182); /* Color del texto */
+}
+
+/* Estilo para el elemento 'header' */
+header {
+  background-color: rgb(10, 10, 10); /* Color de fondo del encabezado */
+  padding-bottom: 0px; /* Eliminar el relleno inferior */
+}
+
+/* Estilo para elementos con clase 'logo' dentro de 'header' */
+header .logo {
+  padding: 10px; /* Relleno interno: 10 píxeles en todos los lados */
+  font-weight: bold; /* Grosor de la fuente: negrita */
+  color: red; /* Color del texto: rojo */
+  font-size: 1.6em; /* Tamaño de fuente: 1.6 veces el tamaño predeterminado */
+}
+
+/* Estilo para elementos con clase 'titulo' dentro de 'header' */
+header .titulo {
+  display: flex; /* Mostrar como contenedor flexible */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  text-decoration: underline; /* Subrayar el texto */
+  align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+  color: rgb(36, 255, 182); /* Color del texto */
+}
+
+/* Estilo para elementos 'nav' dentro de 'header' */
+header nav {
+  display: flex; /* Mostrar como contenedor flexible */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  text-align: center; /* Alineación del texto: centrado */
+  padding-bottom: 20px; /* Relleno inferior: 20 píxeles */
+}
+
+
+/* Estilo para enlaces dentro de elementos 'header' */
+header a {
+  margin: 0 50px; /* Margen derecho e izquierdo: 50 píxeles, margen superior e inferior: 0 */
+  padding: 5px 12px; /* Relleno interno: 5 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  text-decoration: none; /* Eliminar decoración de texto (subrayado) */
+  font-weight: bold; /* Grosor de la fuente: negrita */
+  color: rgb(255, 255, 255); /* Color del texto */
+}
+
+/* Estilo para enlaces dentro de elementos 'header' al pasar el ratón sobre ellos */
+header a:hover {
+  color: rgb(36, 255, 182); /* Cambiar el color del texto al verde claro al pasar el ratón */
+}
+
+/* Estilo para elementos con id 'subtitulo' */
+#subtitulo {
+  font-size: 7.6em; /* Tamaño de fuente: 7.6 veces el tamaño predeterminado */
+}
+
+/* Estilo para elementos con clase 'hist' */
+.hist {
+  display: flex; /* Mostrar como contenedor flexible */
+  align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  padding-bottom: 20px; /* Relleno inferior: 20 píxeles */
+  text-align: center; /* Alineación del texto: centrado */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  height: 100vh; /* Altura: 100% de la altura de la ventana */
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url("/Newbalance/Imagenes/Header_NewBalance.png"); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+}
+
+
+/* Estilo para elementos h1 dentro de elementos con clase 'hist' */
+.hist h1 {
+  color: rgb(255, 255, 255); /* Color del texto: blanco */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB9060' */
+#NB9060 .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB550' */
+#NB550 .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB2002' */
+#NB2002 .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB990' */
+#NB990 .zapa {
+  text-align: center; /* Alineación del texto: centrado */
+  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con id 'masmodelos' */
+#masmodelos {
+  background-color: rgba(30, 30, 30); /* Color de fondo */
+  color: white; /* Color del texto: blanco */
+  text-align: center; /* Alineación del texto: centrado */
+}
+
+
+/* Estilo para elementos con clase 'zapa' dentro de elementos con id 'masmodelos' */
+#masmodelos .zapa {
+  padding: 150px 0px; /* Relleno interno: 150 píxeles arriba/abajo, 0 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos h2 dentro de elementos con id 'masmodelos' */
+#masmodelos h2 {
+  margin-top: 0; /* Eliminar el margen superior predeterminado */
+  font-size: 3.2em; /* Tamaño de fuente: 3.2 veces el tamaño predeterminado */
+}
+
+/* Estilo para elementos con clase 'carta' dentro de elementos con id 'masmodelos' */
+#masmodelos .carta {
+  background-position: center center; /* Posición del fondo: centro */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  padding: 50px; /* Relleno interno: 50 píxeles en todos los lados */
+  margin: 20px; /* Margen externo: 20 píxeles en todos los lados */
+  border-radius: 15px; /* Radio de borde: 15 píxeles */
+}
+
+/* Estilo para el primer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+    ),
+    url(/Newbalance/Imagenes/NewBalance327.png); /* Imagen de fondo */
+}
+
+
+/* Estilo para el segundo elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+    ),
+    url(/Newbalance/Imagenes/NewBalance530.png); /* Imagen de fondo */
+}
+
+/* Estilo para el tercer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  )
+  ,url(/Newbalance/Imagenes/NewBalance1906-R.png); /* Imagen de fondo */
+}
+
+/* Estilo para el elemento footer */
+footer {
+  background-color: grey; /* Establecer el color de fondo a gris */
+  padding: 15px; /* Establecer relleno de 15px en todas las direcciones */
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+  align-items: center; /* Centrar los elementos verticalmente */
+  line-height: 1.5em; /* Establecer la altura de línea a 1.5 veces el tamaño de fuente */
+}
+
+/* Estilo para el elemento con clase .info dentro de footer */
+.footer .info {
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+  align-items: center; /* Centrar los elementos verticalmente */
+}
+
+/* Estilo para el elemento con clase .info-group */
+.info-group {
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribuir el contenido uniformemente en el espacio disponible */
+  margin: 2px 1px; /* Establecer márgenes superior e inferior de 2px y márgenes izquierdo y derecho de 1px */
+  padding: 1px 5px; /* Establecer relleno de 1px en las direcciones vertical y horizontal */
+}
+
+/* Estilo para los enlaces dentro de .info-group en estado hover */
+.info-group a:hover {
+  color: rgb(0, 238, 255); /* Cambiar el color del texto al azul claro cuando el enlace está en estado hover */
+}
+
+/* Estilo para el elemento con clase .idiomas */
+.idiomas {
+  margin: 0; /* Eliminar el margen superior e inferior */
+  display: flex; /* Mostrar como un contenedor flexible */
+  color: black; /* Establecer el color del texto a negro */
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+}
+
+/* Estilo para los enlaces dentro de .idiomas */
+.idiomas a {
+  margin-right: 15px; /* Establecer un margen derecho de 15px */
+}
+
+/* Estilo para el elemento span dentro de .idiomas */
+.idiomas span {
+  display: inline-block; /* Mostrar como un bloque en línea */
+  margin: 2px 1px; /* Establecer márgenes superior e inferior de 2px y márgenes izquierdo y derecho de 1px */
+  padding: 5px 10px; /* Establecer relleno de 5px en las direcciones vertical y horizontal */
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribuir el contenido uniformemente en el espacio disponible */
+}
+
+/* Estilo para los párrafos dentro de footer */
+footer p {
+  margin: 0; /* Eliminar el margen superior e inferior */
+  color: rgb(31, 31, 31); /* Establecer el color del texto a un tono de gris oscuro */
+}
+
+/* Estilo para el elemento con clase .copy dentro de footer */
+footer .copy {
+  height: 50px; /* Establecer la altura a 50px */
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: center; /* Centrar el contenido horizontalmente */
+  align-items: flex-end; /* Alinear los elementos en la parte inferior del contenedor */
+}
+
+
+
+/* --------------------------------------------------------------------- */
+
+/* Estilo aplicado cuando el ancho de la pantalla es igual o mayor a 720px */
+@media (min-width: 720px){}
+  /* Estilo para el elemento 'header' */
+  header {
+    position: fixed; /* Fijar la posición del encabezado en la ventana */
+    width: 100%; /* Ancho del encabezado: 100% del ancho de la ventana */
+  }
+  
+  /* Estilo para elementos con clase 'logo' dentro de 'header' */
+  header .logo {
+    flex-direction: row; /* Dirección del eje principal: fila */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos a lo largo del eje principal */
+    display: flex; /* Mostrar como contenedor flexible */
+    flex-direction: column; /* Dirección del eje principal: columna */
+    align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+  }
+  
+  /* Estilo para elementos 'nav' dentro de 'header' */
+  header nav {
+    flex-direction: row; /* Dirección del eje principal: fila */
+    padding-bottom: 0; /* Eliminar el relleno inferior */
+  }
+  
+  /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB9060' */
+  #NB9060 .zapa {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  }
+ 
+
+  
+  /* Estilo para elementos con clase 'texto' dentro de elementos con id 'NB9060' */
+ #NB9060 .texto {
+  width: 50%; /* Ancho del elemento: 50% del ancho del contenedor principal */
+  max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+  text-align: initial; /* Alineación del texto: valor inicial */
+  padding-left: 50px; /* Relleno izquierdo: 50 píxeles */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centrado */
+ }
+
+ /* Estilo para elementos h2 dentro de elementos con id 'NB9060' */
+ #NB9060 h2 {
+  margin-top: 0px; /* Eliminar el margen superior predeterminado */
+ }
+
+ /* Estilo para elementos con clase 'img-NB9060' dentro de elementos con id 'NB9060' */
+ #NB9060 .img-NB9060 {
+  background-image: url(/Newbalance/Imagenes/NewBalance9060.png); /* Imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+  height: 500px; /* Altura del elemento: 500 píxeles */
+  width: 400px; /* Ancho del elemento: 400 píxeles */
+ }
+
+  
+  /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB550' */
+ #NB550 .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto1' dentro de elementos con id 'NB550' */
+ #NB550 .texto1 {
+  width: 50%; /* Ancho del elemento: 50% del ancho del contenedor principal */
+  max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno izquierdo: 50 píxeles */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centrado */
+ }
+
+ /* Estilo para elementos h2 dentro de elementos con id 'NB550' */
+ #NB550 h2 {
+  margin-top: 0px; /* Eliminar el margen superior predeterminado */
+ }
+
+  
+  /* Estilo para elementos con clase 'img-NB550' dentro de elementos con id 'NB550' */
+ #NB550 .img-NB550 {
+  background-image: url(/Newbalance/Imagenes/Newbalance550.png); /* Imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+  height: 500px; /* Altura del elemento: 500 píxeles */
+  width: 500px; /* Ancho del elemento: 500 píxeles */
+  order: 1; /* Cambiar el orden de presentación en el diseño flexible */
+  margin: 50px; /* Margen externo: 50 píxeles en todos los lados */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB2002' */
+ #NB2002 .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto2' dentro de elementos con id 'NB2002' */
+ #NB2002 .texto2 {
+  width: 50%; /* Ancho del elemento: 50% del ancho del contenedor principal */
+  max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno izquierdo: 50 píxeles */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centrado */
+ }
+
+  
+  /* Estilo para elementos h2 dentro de elementos con id 'NB2002' */
+ #NB2002 h2 {
+  margin-top: 0px; /* Eliminar el margen superior predeterminado */
+ }
+
+  
+  /* Estilo para elementos h2 dentro de elementos con id 'NB2002' */
+ #NB2002 h2 {
+  margin-top: 0px; /* Eliminar el margen superior predeterminado */
+ }
+
+ /* Estilo para elementos con clase 'img-NB2002' dentro de elementos con id 'NB2002' */
+ #NB2002 .img-NB2002 {
+  background-image: url(/Newbalance/Imagenes/NewBalance2002.png); /* Imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+  height: 350px; /* Altura del elemento: 350 píxeles */
+  width: 500px; /* Ancho del elemento: 500 píxeles */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB990' */
+ #NB990 .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto3' dentro de elementos con id 'NB990' */
+ #NB990 .texto3 {
+  width: 50%; /* Ancho del elemento: 50% del ancho del contenedor principal */
+  max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+  text-align: left; /* Alineación del texto: izquierda */
+  padding-left: 50px; /* Relleno izquierdo: 50 píxeles */
+  flex-direction: column; /* Dirección del eje principal: columna */
+  justify-content: center; /* Centrar los elementos a lo largo del eje principal */
+  text-align: center; /* Alineación del texto: centrado */
+
+ }
+ #NB990 .img-NB990 {
+  background-image: url(/Newbalance/Imagenes/NewBalance990.png); /* Imagen de fondo */
+  background-size: cover; /* Tamaño del fondo: cubrir completamente */
+  background-position: center center; /* Posición del fondo: centro */
+  height: 350px; /* Altura del elemento: 350 píxeles */
+  width: 500px; /* Ancho del elemento: 500 píxeles */
+ }
+ 
+ 
