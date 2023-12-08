@@ -1,0 +1,450 @@
+/* Estilo para todos los elementos, incluyendo el borde de la caja y la fuente */
+* {
+  box-sizing: border-box; /* Utilizar modelo de caja de borde */
+  font-family: 'Times New Roman', Times, serif; /* Establecer la familia de fuentes */
+}
+
+/* Estilo para el elemento 'html' */
+html {
+  scroll-behavior: smooth; /* Suavizar el desplazamiento en la página */
+}
+
+/* Estilo para el elemento 'body' */
+body {
+  margin: 0; /* Eliminar el margen predeterminado del cuerpo */
+  background-color: rgb(165, 165, 165); /* Establecer el color de fondo del cuerpo */
+}
+
+/* Estilo para elementos 'h1' */
+h1 {
+  font-size: 2.7em; /* Tamaño de la fuente para 'h1' */
+}
+
+/* Estilo para elementos 'h2' */
+h2 {
+  font-size: 2.7em; /* Tamaño de la fuente para 'h2' */
+}
+
+/* Estilo para elementos 'h3' */
+h3 {
+  font-size: 2em; /* Tamaño de la fuente para 'h3' */
+}
+
+/* Estilo para párrafos ('p') */
+p {
+  font-size: 1.25em; /* Tamaño de la fuente para párrafos */
+}
+
+/* Estilo para elementos con clase 'zapa' */
+.zapa {
+  max-width: 1400px; /* Ancho máximo de '.zapa' */
+  margin: auto; /* Centrar horizontalmente mediante margen automático */
+  padding: 20px; /* Relleno interno de 20px */
+}
+
+/* Estilo para elementos con clase 'color-titulo' */
+.color-titulo {
+  color: rgb(36, 255, 182); /* Establecer el color del texto */
+}
+
+/* Estilo para el elemento 'header' */
+header {
+  background-color: rgb(10, 10, 10); /* Establecer el color de fondo */
+  padding-bottom: 0px; /* Eliminar el relleno inferior */
+}
+
+/* Estilo para elementos dentro de 'header' con clase 'logo' */
+header .logo {
+  padding: 10px; /* Establecer el relleno interno */
+  font-weight: bold; /* Establecer el peso de la fuente como negrita */
+  color: red; /* Establecer el color del texto */
+  font-size: 1.6em; /* Tamaño de la fuente */
+}
+
+/* Estilo para elementos dentro de 'header' con clase 'titulo' */
+header .titulo {
+  display: flex; /* Mostrar como un contenedor flexible */
+  flex-direction: column; /* Dirección de columna del diseño flexible */
+  text-decoration: underline; /* Subrayar el texto */
+  align-items: center; /* Centrar elementos secundarios horizontalmente */
+  color: rgb(36, 255, 182); /* Establecer el color del texto */
+}
+
+/* Estilo para elementos dentro de 'header' de tipo 'nav' */
+header nav {
+  display: flex; /* Mostrar como un contenedor flexible */
+  flex-direction: column; /* Dirección de columna del diseño flexible */
+  text-align: center; /* Alinear el texto al centro */
+  padding-bottom: 20px; /* Establecer el relleno inferior */
+}
+
+/* Estilo para enlaces dentro de 'header' */
+header a {
+  margin: 0 50px; /* Establecer los márgenes izquierdo y derecho */
+  padding: 5px 12px; /* Establecer el relleno interno */
+  text-decoration: none; /* Eliminar la decoración de texto (subrayado predeterminado) */
+  font-weight: bold; /* Establecer el peso de la fuente como negrita */
+  color: rgb(255, 255, 255); /* Establecer el color del texto */
+}
+
+
+/* Estilo para enlaces 'a' dentro de 'header' cuando se realiza un hover */
+header a:hover {
+  color: rgb(36, 255, 182); /* Cambiar el color del texto al realizar hover */
+}
+
+/* Estilo para el elemento con id 'subtitulo' */
+#subtitulo {
+  font-size: 7.6em; /* Establecer el tamaño de la fuente */
+}
+
+/* Estilo para elementos con clase 'hist' */
+.hist {
+  display: flex; /* Mostrar como un contenedor flexible */
+  align-items: center; /* Centrar elementos secundarios verticalmente */
+  justify-content: center; /* Centrar elementos secundarios horizontalmente */
+  padding-bottom: 20px; /* Establecer el relleno inferior */
+  text-align: center; /* Alinear el texto al centro */
+  flex-direction: column; /* Dirección de columna del diseño flexible */
+  height: 100vh; /* Establecer la altura al 100% de la altura de la ventana */
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url(/Adidas/imagenes/Adidas_header.png); /* Establecer la imagen de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-size: cover; /* Cubrir completamente el contenedor con la imagen de fondo */
+  background-position: center center; /* Posición de la imagen de fondo */
+}
+
+/* Estilo para encabezados 'h1' dentro de elementos con clase 'hist' */
+.hist h1 {
+  color: rgb(255, 255, 255); /* Establecer el color del texto */
+}
+
+
+/* Estilo para la clase 'zapa' dentro del elemento con id 'campus00' */
+#campus00 .zapa {
+  text-align: center; /* Alinear el texto al centro */
+  padding: 50px 12px; /* Establecer relleno superior e inferior de 50px y relleno izquierdo y derecho de 12px */
+}
+
+/* Estilo para la clase 'zapa' dentro del elemento con id 'campusbb' */
+#campusbb .zapa {
+  text-align: center; /* Alinear el texto al centro */
+  padding: 50px 12px; /* Establecer relleno superior e inferior de 50px y relleno izquierdo y derecho de 12px */
+}
+
+/* Estilo para la clase 'zapa' dentro del elemento con id 'yeezy' */
+#yeezy .zapa {
+  text-align: center; /* Alinear el texto al centro */
+  padding: 50px 12px; /* Establecer relleno superior e inferior de 50px y relleno izquierdo y derecho de 12px */
+}
+
+/* Estilo para la clase 'zapa' dentro del elemento con id 'responsecl' */
+#responsecl .zapa {
+  text-align: center; /* Alinear el texto al centro */
+  padding: 50px 12px; /* Establecer relleno superior e inferior de 50px y relleno izquierdo y derecho de 12px */
+}
+
+/* Estilo para el elemento con id 'masmodelos' */
+#masmodelos {
+  background-color: rgba(30, 30, 30); /* Establecer el color de fondo con transparencia */
+  color: white; /* Establecer el color del texto */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+/* Estilo para la clase 'zapa' dentro del elemento con id 'masmodelos' */
+#masmodelos .zapa {
+  padding: 150px 0px; /* Establecer un relleno superior e inferior de 150px y ningún relleno izquierdo y derecho */
+}
+
+/* Estilo para el elemento h2 dentro de #masmodelos */
+#masmodelos h2 {
+  margin-top: 0; /* Eliminar el margen superior */
+  font-size: 3.2em; /* Establecer el tamaño de fuente a 3.2em */
+}
+
+/* Estilo para la clase .carta dentro de #masmodelos */
+#masmodelos .carta {
+  background-position: center center; /* Establecer la posición del fondo al centro */
+  background-size: cover; /* Hacer que el fondo cubra completamente el contenedor */
+  padding: 50px; /* Establecer relleno de 50px en todas las direcciones */
+  margin: 20px; /* Establecer margen de 20px en todas las direcciones */
+  border-radius: 15px; /* Establecer un radio de borde de 15px para redondear las esquinas */
+}
+
+/* Estilo para el primer elemento con clase .carta dentro de #masmodelos */
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+    ),
+    url(/Adidas/imagenes/Samba.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+}
+
+/* Estilo para el segundo elemento con clase .carta dentro de #masmodelos */
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+    ),
+    url(/Adidas/imagenes/originals.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+}
+
+
+/* Estilo para el tercer elemento con clase .carta dentro de #masmodelos */
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.8),
+    rgba(30, 30, 30, 0.8)
+  )
+  ,url(/Adidas/imagenes/Stan_Smith.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+}
+
+/* Estilo para el elemento footer */
+footer {
+  background-color: grey; /* Establecer el color de fondo a gris */
+  padding: 15px; /* Establecer relleno de 15px en todas las direcciones */
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+  align-items: center; /* Centrar los elementos verticalmente */
+  line-height: 1.5em; /* Establecer la altura de línea a 1.5 veces el tamaño de fuente */
+}
+
+/* Estilo para el elemento con clase .info dentro de footer */
+.footer .info {
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+  align-items: center; /* Centrar los elementos verticalmente */
+}
+
+/* Estilo para el elemento con clase .info-group */
+.info-group {
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribuir el contenido uniformemente en el espacio disponible */
+  margin: 2px 1px; /* Establecer márgenes superior e inferior de 2px y márgenes izquierdo y derecho de 1px */
+  padding: 1px 5px; /* Establecer relleno de 1px en las direcciones vertical y horizontal */
+}
+
+/* Estilo para los enlaces dentro de .info-group en estado hover */
+.info-group a:hover {
+  color: rgb(0, 238, 255); /* Cambiar el color del texto al azul claro cuando el enlace está en estado hover */
+}
+
+/* Estilo para el elemento con clase .idiomas */
+.idiomas {
+  margin: 0; /* Eliminar el margen superior e inferior */
+  display: flex; /* Mostrar como un contenedor flexible */
+  color: black; /* Establecer el color del texto a negro */
+  justify-content: space-between; /* Distribuir el contenido uniformemente en el espacio disponible */
+}
+
+/* Estilo para los enlaces dentro de .idiomas */
+.idiomas a {
+  margin-right: 15px; /* Establecer un margen derecho de 15px */
+}
+
+/* Estilo para el elemento span dentro de .idiomas */
+.idiomas span {
+  display: inline-block; /* Mostrar como un bloque en línea */
+  margin: 2px 1px; /* Establecer márgenes superior e inferior de 2px y márgenes izquierdo y derecho de 1px */
+  padding: 5px 10px; /* Establecer relleno de 5px en las direcciones vertical y horizontal */
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: space-around; /* Distribuir el contenido uniformemente en el espacio disponible */
+}
+
+/* Estilo para los párrafos dentro de footer */
+footer p {
+  margin: 0; /* Eliminar el margen superior e inferior */
+  color: rgb(31, 31, 31); /* Establecer el color del texto a un tono de gris oscuro */
+}
+
+/* Estilo para el elemento con clase .copy dentro de footer */
+footer .copy {
+  height: 50px; /* Establecer la altura a 50px */
+  display: flex; /* Mostrar como un contenedor flexible */
+  justify-content: center; /* Centrar el contenido horizontalmente */
+  align-items: flex-end; /* Alinear los elementos en la parte inferior del contenedor */
+}
+
+
+/* --------------------------------------------------------------------- */
+
+@media (min-width: 720px) {
+  /* Estilos para la barra de navegación cuando la ventana es ancha */
+  header {
+    position: fixed; /* Fijar la barra de navegación en la parte superior de la ventana */
+    width: 100%; /* Ocupar el 100% del ancho de la ventana */
+  }
+
+  /* Estilos para el logo en la barra de navegación ancha */
+  header .logo {
+    flex-direction: row; /* Disposición de elementos en fila */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos */
+    display: flex; /* Mostrar como contenedor flexible */
+    flex-direction: column; /* Cambiar la dirección principal a columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+  }
+
+  /* Estilos para la navegación en la barra de navegación ancha */
+  header nav {
+    flex-direction: row; /* Disposición de elementos en fila */
+    padding-bottom: 0; /* Eliminar el relleno inferior */
+  }
+
+  /* Estilos para el modelo de zapatillas #campus00 */
+  #campus00 .zapa {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+  }
+
+  /* Estilos para el texto del modelo #campus00 */
+  #campus00 .texto {
+    width: 50%; /* Ocupar el 50% del ancho disponible */
+    max-width: 600px; /* Ancho máximo de 600px */
+    text-align: initial; /* Establecer el alineamiento del texto a su valor inicial */
+    padding-left: 50px; /* Establecer relleno a la izquierda de 50px */
+    flex-direction: column; /* Disposición de elementos en columna */
+    justify-content: center; /* Centrar el contenido verticalmente */
+    text-align: center; /* Alinear el texto al centro */
+  }
+
+  /* Estilos para el título h2 del modelo #campus00 */
+  #campus00 h2 {
+    margin-top: 0px; /* Eliminar el margen superior */
+  }
+ }
+
+  
+  /* Estilos para la imagen del modelo #campus00 */
+#campus00 .img-campus00 {
+  background-image: url(/Adidas/imagenes/Campus00.png);
+  background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  background-position: center center; /* Centrar la imagen en el contenedor */
+  height: 500px; /* Altura fija de 500px */
+  width: 400px; /* Ancho fijo de 400px */
+ }
+
+ /* Estilos para el modelo de zapatillas #campusbb */
+ #campusbb .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: flex-start; /* Justificar contenido al principio del contenedor */
+ }
+
+ /* Estilos para el texto del modelo #campusbb */
+ #campusbb .texto1 {
+  width: 50%; /* Ocupar el 50% del ancho disponible */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alinear el texto a la izquierda */
+  padding-left: 0px; /* Eliminar el relleno a la izquierda */
+  flex-direction: column; /* Disposición de elementos en columna */
+  justify-content: center; /* Centrar el contenido verticalmente */
+  text-align: center; /* Alinear el texto al centro */
+ }
+
+ /* Estilos para el título h2 del modelo #campusbb */
+ #campusbb h2 {
+  margin-top: 0px; /* Eliminar el margen superior */
+ }
+
+ /* Estilos para la imagen del modelo #campusbb */
+ #campusbb .img-campusbb {
+  background-image: url(/Adidas/imagenes/Campus_BadBunny.png);
+  background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  background-position: center center; /* Centrar la imagen en el contenedor */
+  height: 300px; /* Altura fija de 300px */
+  width: 500px; /* Ancho fijo de 500px */
+  order: 1; /* Cambiar el orden de visualización */
+  margin: 40px; /* Establecer márgenes */
+ }
+
+ /* Estilos para el modelo de zapatillas #yeezy */
+ #yeezy .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Centrar contenido horizontalmente */
+ }
+
+  
+ /* Estilos para el texto del modelo #yeezy */
+ #yeezy .texto2 {
+  width: 50%; /* Ocupar el 50% del ancho disponible */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alinear el texto a la izquierda */
+  padding-left: 50px; /* Agregar relleno a la izquierda */
+  flex-direction: column; /* Disposición de elementos en columna */
+  justify-content: center; /* Centrar el contenido verticalmente */
+  text-align: center; /* Alinear el texto al centro */
+ }
+
+ /* Estilos para el título h2 del modelo #yeezy */
+ #yeezy h2 {
+  margin-top: 0px; /* Eliminar el margen superior */
+ }
+
+ /* Estilos para la imagen del modelo #yeezy */
+ #yeezy .img-yeezy {
+  background-image: url(/Adidas/imagenes/Yeezy.png);
+  background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  background-position: center center; /* Centrar la imagen en el contenedor */
+  height: 350px; /* Altura fija de 350px */
+  width: 500px; /* Ancho fijo de 500px */
+ }
+
+ /* Estilos para el modelo de zapatillas #responsecl */
+ #responsecl .zapa {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: flex-start; /* Justificar contenido al principio del contenedor */
+ }
+
+ /* Estilos para el texto del modelo #responsecl */
+ #responsecl .texto3 {
+  width: 50%; /* Ocupar el 50% del ancho disponible */
+  max-width: 600px; /* Ancho máximo de 600px */
+  text-align: left; /* Alinear el texto a la izquierda */
+  padding-left: 0px; /* Eliminar el relleno a la izquierda */
+  flex-direction: column; /* Disposición de elementos en columna */
+  justify-content: center; /* Centrar el contenido verticalmente */
+  text-align: center; /* Alinear el texto al centro */
+ }
+
+ /* Estilos para el título h2 del modelo #responsecl */
+ #responsecl h2 {
+  margin-top: 0px; /* Eliminar el margen superior */
+ }
+
+  
+  /* Estilos para la imagen del modelo #responsecl */
+ #responsecl .img-responsecl {
+  background-image: url(/Adidas/imagenes/Response_CL.png);
+  background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  background-position: center center; /* Centrar la imagen en el contenedor */
+  height: 400px; /* Altura fija de 400px */
+  width: 600px; /* Ancho fijo de 600px */
+  order: 1; /* Orden de visualización en el diseño flexible */
+  margin: 40px; /* Márgenes alrededor de la imagen */
+ }
+
+ /* Estilos para la sección de modelos adicionales #masmodelos */
+ #masmodelos .otros {
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: center; /* Justificar contenido al centro del contenedor */
+ }
+
+ /* Estilos para el título h3 de la sección #masmodelos */
+ #masmodelos h3 {
+  margin-top: 0px; /* Eliminar el margen superior */
+ }
+
+ /* Estilos para los párrafos de la sección #masmodelos */
+ #masmodelos p {
+  display: block; /* Mostrar como bloque */
+  margin-bottom: 30px; /* Márgenes en la parte inferior */
+ }
+
+ /* Estilos para las cartas en la sección #masmodelos */
+ #masmodelos .carta {
+  padding: 15px; /* Relleno alrededor de la carta */
+ }
