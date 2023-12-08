@@ -81,6 +81,7 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 
 **Sección de Historia:**
 ![Sección de Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_historia.png)
+
 **Sección de Nike:**
 ![Sección de Nike](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Nike.png)
 
@@ -89,10 +90,13 @@ La página web ha sido desarrollada utilizando las siguientes tecnologías:
 
 **Sección de NewBalance:**
 ![Sección de New Balance](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio-NewBalance.png)
+
 **Sección de Crocs**
 ![Sección de Crocs](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Incio_Crocs.png)
+
 **Sección de Otros:**
 ![Sección de Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inicio_Otros-png.PNG)
+
 **Sección de Footer:**
 ![Sección de Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/Inico_Footer.png)
 ## División de Tareas
