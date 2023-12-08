@@ -128,40 +128,53 @@ inicio.css
 - Estilizacion de listas
 
 ## Capturas de Pantalla
+
 **Sección de General:**
+
 ![CSS General](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Estilo-General.png)
 
 **Sección de Botones:**
+
 ![CSS Botones](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Botones.png)
+
 **Sección de Zapas:**
+
 ![CSS Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
 
 **Sección de Header:**
+
 ![CSS Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header1.png) ![Header2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Header2.png)
 
 **Sección de Historia:**
+
 ![CSS Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Historia.png)
 
 **Sección de Zapatillas:**
+
 ![CSS Zapatillas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
 
 **Sección de Otros:**
+
 ![CSS Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Otros.PNG)
 
 **Sección de Carta:**
+
 ![CSS Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Carta.png)
 
 **Sección de Footer:**
+
 ![CSS Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Footer.png) ![CSS Footer2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Footer2.png)
 
 **Sección de Responsive:**
+
 ![CSS Responsive](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive.png)
 ![CSS Responsive2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive2.png)
 ![CSS Responsive3](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive3.png)
 ![CSS Responsive4](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive4.png)
 ![CSS Responsive5](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive5.png)
 ![CSS Responsive6](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/CSS-Responsive6.png)
-...
+
+
 **IMPORTANTE:**
 
 -Si algo visto en las capturas, es lo mismo en los siguientes css, no las volveremos a poner para no ocupar tanto espacio, asi que se da por ententendido que si una parte no sale en posteriores CSS es debido a que es la misma
