@@ -133,7 +133,6 @@ inicio.css
 
 **Sección de Botones:**
 ![CSS Botones](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Botones.png)
-
 **Sección de Zapas:**
 ![CSS Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Inicio/ImagenesCSS/Css-Zapas.PNG)
 
