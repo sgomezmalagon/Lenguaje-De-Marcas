@@ -332,11 +332,27 @@ Este repositorio contiene el código CSS para una página web. A continuación, 
 ## Capturas de Pantalla
 
 A continuación, se incluyen algunas capturas de pantalla de diferentes secciones de la página web.
+**Sección de Historia CSS:**
 
-![Captura de pantalla de la sección de historia](/historia/Imagenes/captura-historia.png)
-![Captura de pantalla de Streetware 1](/historia/Imagenes/captura-streetware1.png)
-![Captura de pantalla de Streetware 2](/historia/Imagenes/captura-streetware2.png)
-![Captura de pantalla de Otros](/historia/Imagenes/captura-otros.png)
+![CSS Historia](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Historia.png)
+
+**Sección de Carta:**
+
+![CSS Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Carta.png)
+
+**Sección de Paragrafo:**
+
+![CSS Paragrafo](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Paragrafo.png)
+
+**Sección de Responsive:**
+![CSS Responsive](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive1.png)
+![CSS Responsive2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive2.png)
+![CSS Responsive3](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive3.png)
+![CSS Responsive4](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive4.png)
+![CSS Responsive5](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive5.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
 
 ## División de Tareas
 
@@ -409,11 +425,30 @@ Nike.html
 
 ## Capturas de Pantalla
 
-- [Captura de Pantalla: Jordan](capturas/jordan.png)
-- [Captura de Pantalla: Air Force](capturas/airforce.png)
-- [Captura de Pantalla: Air Max](capturas/airmax.png)
-- [Captura de Pantalla: Nike SB](capturas/nikesb.png)
-- [Captura de Pantalla: Modelos](capturas/modelos.png)
+**Sección de Header:**
+
+
+- [Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Header-Nike.png)
+
+**Sección de Jordan:**
+- [Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Jordan-Nike.png)
+
+**Sección de Air Force:**
+
+- [Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
+
+**Sección de Air Max:**
+- [Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
+
+**Sección de NikeSB:**
+
+- [Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/NikeSB-Nike.png)
+
+**Sección de MasModelos:**
+- [Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/MasModelos.png)
+
+**Sección de Footer:**
+- [Sección Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Footer-Nike.png)
 
 ## División de las Tareas
 
