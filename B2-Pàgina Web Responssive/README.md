@@ -232,7 +232,7 @@ historia.html
 ## Tecnologías Utilizadas
 
 - HTML5
-- CSS3
+- CSS
 
 ## Características y Funcionalidades Principales
 
@@ -258,8 +258,14 @@ historia.html
 
 ## Capturas de Pantalla
 
-- Agregar capturas de pantalla relevantes de diferentes secciones de la página web.
-
+![Seccion Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Header-Historia.png)
+![Seccion Paragrafos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia1.png)
+![Seccion Paragrafos2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia2.png)
+![Seccion Paragrafos3](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia3.png)
+![Seccion Paragrafos4](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia4.png)
+![Seccion Paragrafos5](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia5.png)
+![Seccion Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Otros-Historia.png)
+![Seccion Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Footer-Historia.png)
 ## División de Tareas
 
 ### Miembros del Grupo
