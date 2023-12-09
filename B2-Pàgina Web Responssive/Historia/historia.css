@@ -117,7 +117,7 @@ header a:hover {
         rgba(20, 20, 20, 0.8),
         rgba(20, 20, 20, 0.8)
     ), /* Establece un degradado como fondo */
-    url(/historia/Imagenes/header-historia.png); /* Establece una imagen como fondo */
+    url("Imagenes/header-historia.png"); /* Establece una imagen como fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el contenedor */
     background-position: center center; /* Centra la imagen de fondo */
@@ -194,7 +194,7 @@ header a:hover {
         rgba(30, 30, 30, 0.8),
         rgba(30, 30, 30, 0.8)
     ),
-    url(/historia/Imagenes/otros-1.png); /* Imagen de fondo con degradado y superposición */
+    url("Imagenes/otros-1.png"); /* Imagen de fondo con degradado y superposición */
 }
 
 
@@ -205,7 +205,7 @@ header a:hover {
         rgba(30, 30, 30, 0.8),
         rgba(30, 30, 30, 0.8)
     ),
-    url(/historia/Imagenes/OTROS-2.png); /* Imagen de fondo con degradado y superposición */
+    url("Imagenes/OTROS-2.png"); /* Imagen de fondo con degradado y superposición */
 }
 
 /* Estilo para el tercer elemento con clase 'carta' en el documento */
@@ -215,7 +215,7 @@ header a:hover {
         rgba(30, 30, 30, 0.8),
         rgba(30, 30, 30, 0.8)
     ),
-    url(/historia/Imagenes/otros-3.png); /* Imagen de fondo con degradado y superposición */
+    url("Imagenes/otros-3.png"); /* Imagen de fondo con degradado y superposición */
 }
 
 /* Estilo para el elemento 'footer' */
@@ -336,7 +336,7 @@ footer {
 
  /* Estilo para elementos con clase 'img-nike' dentro de elementos con id 'paragrafo' */
  #paragrafo .img-nike {
-    background-image: url(/historia/Imagenes/Streetware1.png); /* Imagen de fondo */
+    background-image: url("Imagenes/Streetware1.png"); /* Imagen de fondo */
     background-size: cover; /* Tamaño del fondo: cubrir completamente */
     background-position: center center; /* Posición del fondo: centro */
     height: 500px; /* Altura del elemento: 500 píxeles */
@@ -369,7 +369,7 @@ footer {
     
     /* Estilo para elementos con clase 'img-adidas' dentro de elementos con id 'paragrafo1' */
  #paragrafo1 .img-adidas {
-    background-image: url(/historia/Imagenes/Streetware2.png); /* Imagen de fondo */
+    background-image: url("Imagenes/Streetware2.png"); /* Imagen de fondo */
     background-size: cover; /* Tamaño del fondo: cubrir completamente */
     background-position: center center; /* Posición del fondo: centro */
     height: 400px; /* Altura del elemento: 400 píxeles */
@@ -403,7 +403,7 @@ footer {
 
  /* Estilo para elementos con clase 'img-newbalance' dentro de elementos con id 'paragrafo2' */
  #paragrafo2 .img-newbalance {
-    background-image: url(/historia/Imagenes/Streetware3.png); /* Imagen de fondo */
+    background-image: url("Imagenes/Streetware3.png"); /* Imagen de fondo */
     background-size: cover; /* Tamaño del fondo: cubrir completamente */
     background-position: center center; /* Posición del fondo: centro */
     height: 350px; /* Altura del elemento: 350 píxeles */
@@ -436,7 +436,7 @@ footer {
         
    /* Estilo para elementos con clase 'img-crocs' dentro de elementos con id 'paragrafo3' */
  #paragrafo3 .img-crocs {
-    background-image: url(/historia/Imagenes/Streetware4.png); /* Imagen de fondo */
+    background-image: url("Imagenes/Streetware4.png"); /* Imagen de fondo */
     background-size: cover; /* Tamaño del fondo: cubrir completamente */
     background-position: center center; /* Posición del fondo: centro */
     height: 350px; /* Altura del elemento: 350 píxeles */
