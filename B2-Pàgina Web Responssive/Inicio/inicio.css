@@ -147,7 +147,7 @@ header a:hover {
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url("/Inicio/imagenes/fondoheadder.png");/* Establece una imagen de fondo y un degradado lineal */
+    url("Imagenes/fondoheadder.png");/* Establece una imagen de fondo y un degradado lineal */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir completamente el contenedor */
     background-position: center center; /* Centra la imagen de fondo en el contenedor */
@@ -215,7 +215,7 @@ header a:hover {
     0deg,
     rgba(30, 30, 30, 0.8),
     rgba(30, 30, 30, 0.8)
-  ), url(/Inicio/imagenes/Supreme-pagina.png); /* Fondo con degradado y una imagen */
+  ), url("Imagenes/Supreme-pagina.png"); /* Fondo con degradado y una imagen */
 }
 
 /* Estilos para el segundo elemento con clase 'carta' */
@@ -224,7 +224,7 @@ header a:hover {
     0deg,
     rgba(30, 30, 30, 0.8),
     rgba(30, 30, 30, 0.8)
-  ), url(/Inicio/imagenes/Louis-pagina.png); /* Fondo con degradado y una imagen */
+  ), url("Imagenes/Louis-pagina.png"); /* Fondo con degradado y una imagen */
 }
 
 /* Estilos para el tercer elemento con clase 'carta' */
@@ -233,7 +233,7 @@ header a:hover {
     0deg,
     rgba(30, 30, 30, 0.8),
     rgba(30, 30, 30, 0.8)
-  ), url(/Inicio/imagenes/vans.png); /* Fondo con degradado y una imagen */
+  ), url("Imagenes/vans.png"); /* Fondo con degradado y una imagen */
 }
 
 /* Estilo general del pie de página */
@@ -346,7 +346,7 @@ footer .copy {
 }
 
 #nike .img-nike {
-  background-image: url(/Inicio/imagenes/Nike.png); /* Establece una imagen de fondo para el elemento. */
+  background-image: url("Imagenes/Nike.png"); /* Establece una imagen de fondo para el elemento. */
   background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
   background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
   height: 500px; /* Establece la altura del elemento en 500 píxeles. */
@@ -375,7 +375,7 @@ footer .copy {
 }
 
 #adidas .img-adidas {
-  background-image: url(/Inicio/imagenes/adidas.png); /* Establece una imagen de fondo para el elemento. */
+  background-image: url("Imagenes/adidas.png"); /* Establece una imagen de fondo para el elemento. */
   background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
   background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
   height: 500px; /* Establece la altura del elemento en 500 píxeles. */
@@ -404,7 +404,7 @@ footer .copy {
 }
 
 #newbalance .img-newbalance {
-  background-image: url(/Inicio/imagenes/newbalance.png); /* Establece una imagen de fondo para el elemento. */
+  background-image: url("Imagenes/newbalance.png"); /* Establece una imagen de fondo para el elemento. */
   background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento. */
   background-position: center center; /* Centra la imagen de fondo tanto vertical como horizontalmente. */
   height: 350px; /* Establece la altura del elemento en 350 píxeles. */
@@ -436,7 +436,7 @@ footer .copy {
 
 #crocs .img-crocs {
   /* Define estilos para la imagen con clase "img-crocs" dentro de la sección con id "crocs" */
-  background-image: url(/Inicio/imagenes/Crocs.png); /* Establece la imagen de fondo */
+  background-image: url("Imagenes/Crocs.png"); /* Establece la imagen de fondo */
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
   background-position: center center; /* Posición de la imagen en el contenedor */
   height: 350px; /* Altura de la imagen */
