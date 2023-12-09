@@ -570,10 +570,32 @@ La estructura del proyecto es la siguiente:
    - Aviso de derechos de autor.
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](/path/to/screenshot1.png)
-![Captura de Pantalla 2](/path/to/screenshot2.png)
-![Captura de Pantalla 3](/path/to/screenshot3.png)
+**Sección de Header**
 
+![Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/Header-Adidas.png)
+
+**Sección de Campus00:**
+
+![Sección Campus00](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/Campus00.png)
+
+**Sección de Bad Bunny:**
+
+![Sección Campus Bad Bunny](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/Campusbb.png)
+
+**Sección de Yeezy:**
+
+![Sección Yeezy](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/Yeezy.png)
+
+**Sección de ResponseCL:**
+
+![Sección Response CL](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/ResponseCL.png)
+
+**Sección de Mas Modelos:**
+
+![Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/MasModelos.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el html  footer. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el html
 ## División de las Tareas
 
 ### Sergio
@@ -609,23 +631,35 @@ adidas.css
 
 A continuación se muestran algunas capturas de pantalla de diferentes secciones del proyecto:
 
-1. Barra de Navegación
-   ![Barra de Navegación](/ruta/a/imagen.png)
+**CSS de Header**
 
-2. Modelo #campus00
-   ![Modelo #campus00](/ruta/a/imagen.png)
+   ![CSS de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Header.png)
 
-3. Modelo #campusbb
-   ![Modelo #campusbb](/ruta/a/imagen.png)
+**CSS  de Carta**
 
-4. Modelo #yeezy
-   ![Modelo #yeezy](/ruta/a/imagen.png)
+   ![CSS de Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Carta.png)
 
-5. Modelo #responsecl
-   ![Modelo #responsecl](/ruta/a/imagen.png)
+**CSS de Campus00**
 
-6. Sección de Modelos Adicionales
-   ![Sección de Modelos Adicionales](/ruta/a/imagen.png)
+   ![Modelo #campus00](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Campus00.png)
+
+**Sección de Campus Bad Bunny**
+
+   ![Modelo #campusbb](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Bad%20Bunny.png)
+
+**CSS de Yeezy**
+
+   ![Modelo #yeezy](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Yeezy.png)
+
+**Sección de Response CL**
+
+   ![Modelo #responsecl](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-ResponseCL.png)
+
+**CSS de Mas Modelos**
+   ![CSS de Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-MasModelos.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
 
 ## División de las Tareas
 
