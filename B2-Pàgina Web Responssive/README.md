@@ -1,4 +1,4 @@
-# B2-Página Web Responsive - One More Step
+![image](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/assets/147530296/958e877a-32bb-413b-be53-de66c0ba83bc)![image](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/assets/147530296/0ce0bb32-bb2f-4404-8890-e03a7afcc26d)# B2-Página Web Responsive - One More Step
 
 La estructura de carpetas y archivos que conforman la página web es la siguiente:
 
@@ -492,6 +492,8 @@ Nike.css
 
 ![Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Cabezera.png)
 
+## Sección de Responsive
+
 **Sección de Jordan:**
 ![Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Jordan.PNG)
 
@@ -638,6 +640,8 @@ A continuación se muestran algunas capturas de pantalla de diferentes secciones
 **CSS  de Carta**
 
    ![CSS de Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Adidas/CSS/CSS-Carta.png)
+   
+## Seccion de Responsive
 
 **CSS de Campus00**
 
@@ -725,17 +729,30 @@ Crocs.html
 
 ## Capturas de Pantalla
 
-- Captura de la sección "Rayo McQueen"
-  ![Rayo McQueen](screenshots/rayo_mcqueen.png)
+ ![Sección Header ](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/Header-Crocs.png)
 
-- Captura de la sección "Mate"
-  ![Mate](screenshots/mate.png)
+ **Sección de McQueen**
+ 
+  ![Sección McQueen](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/McQueen.png)
 
-- Captura de la sección "Shrek"
-  ![Shrek](screenshots/shrek.png)
+**Sección de Mate**
+  ![Sección Mate](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/Mate.png)
 
-- Captura de la sección "McDonald's"
-  ![McDonald's](screenshots/mcdonalds.png)
+**Sección de Shrek**
+
+  ![Sección Shrek](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/Shrek.png)
+
+  **Sección de McDonalds**
+  
+![Sección McDonalds](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/McDonalds.png)
+
+
+**Sección de Mas Modelos**
+ ![Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/Mas-Modelos.png)
+
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el html  footer. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el html.
 
 ## División de Tareas
 
@@ -772,20 +789,36 @@ crocs.css
 
 ## Capturas de Pantalla
 
-### Sección "Rayo McQueen"
-![Rayo McQueen](/path/to/screenshot-rayo-mcqueen.png)
+**CSS de Header**
 
-### Sección "Mate"
-![Mate](/path/to/screenshot-mate.png)
+![CSS Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Header.png)
 
-### Sección "Shrek"
-![Shrek](/path/to/screenshot-shrek.png)
+**CSS de Zapa"**
+![Css Zapa](/https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Zapas.png)
+![Css Zapa](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Zapas2.png)
 
-### Sección "McDonald's"
-![McDonald's](/path/to/screenshot-mcdonalds.png)
+**CSS de Carta**
+![CSS Carta](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Carta.png)
 
-### Sección "Más Modelos"
-![Más Modelos](/path/to/screenshot-masmodelos.png)
+## Sección de Responsive
+
+**Sección "Rayo McQueen"**
+![CSS McQueen](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-McQueen.PNG)
+
+**CSS de Mate**
+![CSS Mate](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Mate.png)
+
+**CSS de Shrek**
+![CSS Shrek](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-Shrek.png)
+
+**CSS de McDonalds**
+![CSS McDonalds](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-McDonalds.png)
+
+**CSS de Mas Modelos**
+![CSS Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Crocs/CSS/CSS-MasModelos.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
 
 ## División de Tareas
 
@@ -836,7 +869,34 @@ newbalance.html
 
 ## Capturas de Pantalla
 
-Se han agregado capturas de pantalla relevantes de diferentes secciones de la página web en la carpeta "screenshots".
+
+**Sección de Header:**
+
+[Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/Header-NewBalance.png)
+
+**Sección de NB9060:**
+
+[Sección de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-9060.png)
+
+**Sección de NB550:**
+
+[Sección de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-550.png)
+
+**Sección de NB2002**
+
+[Sección de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-2002.png)
+
+**Sección de NB990:**
+  
+[Sección NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-990.png)
+
+**Sección de NB990:**
+[Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos1.png)
+[Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos2.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el html  footer. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el html.
+
 
 ## División de Tareas
 
@@ -875,12 +935,39 @@ newbalance.css
 
 ## Capturas de Pantalla
 
-- Captura del encabezado: [Enlace a la imagen](/Newbalance/Imagenes/Header_NewBalance.png)
-- Captura del modelo NB9060: [Enlace a la imagen](/Newbalance/Imagenes/NewBalance9060.png)
-- Captura del modelo NB550: [Enlace a la imagen](/Newbalance/Imagenes/Newbalance550.png)
-- Captura del modelo NB2002: [Enlace a la imagen](/Newbalance/Imagenes/NewBalance2002.png)
-- Captura del modelo NB990: [Enlace a la imagen](/Newbalance/Imagenes/NewBalance990.png)
+**CSS de Header:**
 
+[CSS de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Header.png)
+
+**CSS de Zapas**
+![CSS de Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Zapas.png)
+![CSS de Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Zapas2.png)
+
+**CSS de Carta:**
+![CSS de Cartas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Carta.png)
+
+
+## Sección de Responsive
+
+**CSS de NB9060:**
+
+[CSS de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Responsuve9060.png)
+
+**CSS de NB550:**
+
+[CSS de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve550.png)
+
+**CSS de NB2002**
+
+[CSS de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve2002.png)
+
+**CSS de NB990:**
+  
+[CSS NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve990.png)
+
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
 ## División de Tareas
 
 ### Enric
