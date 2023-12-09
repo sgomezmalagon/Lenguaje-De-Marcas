@@ -1,0 +1,469 @@
+/* Establece el modelo de caja para incluir el borde en las dimensiones de los elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Establece la fuente predeterminada para todos los elementos */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Aplica un comportamiento de desplazamiento suave al desplazarse por la página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Elimina el margen predeterminado del cuerpo y establece el color de fondo */
+body {
+    margin: 0;
+    background-color: rgb(165, 165, 165);
+}
+
+/* Establece el tamaño de fuente para los encabezados h1 */
+h1 {
+    font-size: 2.7em;
+}
+
+/* Establece el tamaño de fuente para los encabezados h2 */
+h2 {
+    font-size: 2.7em;
+}
+
+/* Establece el tamaño de fuente para los encabezados h3 */
+h3 {
+    font-size: 2em;
+}
+
+/* Establece el tamaño de fuente para los párrafos */
+p {
+    font-size: 1.25em;
+}
+
+
+/* Establece un ancho máximo para el contenedor, centrando el contenido horizontalmente */
+.zapa {
+    max-width: 1400px;
+    margin: auto; 
+    padding: 20px;
+}
+
+/* Aplica un color específico al texto con la clase 'color-titulo' */
+.color-titulo {
+    color: rgb(36, 255, 182);
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgb(10, 10, 10); /* Establece el color de fondo del encabezado */
+    padding-bottom: 0px; /* Elimina el espacio inferior del encabezado */
+}
+
+/* Estilos para el logotipo dentro del encabezado */
+header .logo {
+    padding: 10px; /* Añade relleno al logotipo */
+    font-weight: bold; /* Establece el grosor de la fuente del logotipo como negrita */
+    color: red; /* Cambia el color del texto del logotipo a rojo */
+    font-size: 1.6em; /* Establece el tamaño de la fuente del logotipo */
+}
+
+/* Estilos para los elementos con clase 'titulo' dentro del encabezado */
+header .titulo {
+    display: flex; /* Utiliza un modelo de caja flexible */
+    flex-direction: column; /* Establece la dirección de los elementos secundarios en columna */
+    text-decoration: underline; /* Aplica un subrayado al texto */
+    align-items: center; /* Centra los elementos secundarios horizontalmente */
+    color: rgb(36, 255, 182); /* Establece el color del texto */
+}
+
+/* Estilos para la barra de navegación dentro del encabezado */
+header nav {
+    display: flex; /* Utiliza un modelo de caja flexible para la barra de navegación */
+    flex-direction: column; /* Establece la dirección de los elementos secundarios en columna */
+    text-align: center; /* Alinea el texto al centro */
+    padding-bottom: 20px; /* Añade espacio inferior a la barra de navegación */
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación */
+header a {
+    margin: 0 50px; /* Establece márgenes a los lados de los enlaces */
+    padding: 5px 12px; /* Añade relleno a los enlaces */
+    text-decoration: none; /* Elimina la decoración de subrayado de los enlaces */
+    font-weight: bold; /* Establece el peso de la fuente como negrita */
+    color: rgb(255, 255, 255); /* Establece el color del texto de los enlaces */
+}
+
+/* Estilos para los enlaces al pasar el ratón sobre ellos */
+header a:hover {
+    color: rgb(36, 255, 182); /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+
+/* Estilos para elementos con id 'subtitulo' */
+#subtitulo {
+    font-size: 7.6em; /* Establece el tamaño de la fuente */
+}
+
+/* Estilos para elementos con clase 'hist' */
+.hist {
+    display: flex; /* Utiliza un modelo de caja flexible */
+    align-items: center; /* Centra los elementos secundarios verticalmente */
+    justify-content: center; /* Centra los elementos secundarios horizontalmente */
+    padding-bottom: 20px; /* Añade espacio inferior */
+    text-align: center; /* Alinea el texto al centro */
+    flex-direction: column; /* Establece la dirección de los elementos secundarios en columna */
+    height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana */
+    background-image: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 0.8),
+        rgba(20, 20, 20, 0.8)
+    ), /* Establece un degradado como fondo */
+    url(/historia/Imagenes/header-historia.png); /* Establece una imagen como fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el contenedor */
+    background-position: center center; /* Centra la imagen de fondo */
+}
+
+
+/* Estilo para los elementos h1 dentro de cualquier elemento con clase 'hist' */
+.hist h1 {
+    color: rgb(255, 255, 255); /* Color del texto: blanco */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'paragrafo' */
+#paragrafo .zapa {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 12px; /* Relleno: 20 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'paragrafo1' */
+#paragrafo1 .zapa {
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'paragrafo2' */
+#paragrafo2 .zapa {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 12px; /* Relleno: 20 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'paragrafo3' */
+#paragrafo3 .zapa {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 12px; /* Relleno: 20 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'paragrafo4' */
+#paragrafo4 .zapa {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 12px; /* Relleno: 20 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+}
+
+/* Estilo para el elemento con id 'otros' */
+#otros {
+    background-color: rgba(30, 30, 30); /* Color de fondo: gris oscuro con opacidad */
+    color: white; /* Color del texto: blanco */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para elementos con clase 'zapa' dentro de un elemento con id 'otros' */
+#otros .zapa {
+    padding: 150px 50px; /* Relleno: 150 píxeles arriba/abajo, 50 píxeles izquierda/derecha */
+}
+
+/* Estilo para elementos h2 dentro de un elemento con id 'otros' */
+#otros h2 {
+    margin-top: 0; /* Margen superior: 0 (elimina el margen predeterminado) */
+    font-size: 3.2em; /* Tamaño de fuente: 3.2 veces el tamaño predeterminado */
+}
+
+
+/* Estilo para elementos con clase 'carta' dentro de un elemento con id 'otros' */
+#otros .carta {
+    background-position: center center; /* Posición del fondo: centro */
+    background-size: cover; /* Tamaño del fondo: cubrir completamente */
+    padding: 50px; /* Relleno interno: 50 píxeles en todos los lados */
+    margin: 20px; /* Margen externo: 20 píxeles en todos los lados */
+    border-radius: 15px; /* Radio de borde: 15 píxeles para esquinas redondeadas */
+}
+
+/* Estilo para el primer elemento con clase 'carta' en el documento */
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(30, 30, 30, 0.8),
+        rgba(30, 30, 30, 0.8)
+    ),
+    url(/historia/Imagenes/otros-1.png); /* Imagen de fondo con degradado y superposición */
+}
+
+
+/* Estilo para el segundo elemento con clase 'carta' en el documento */
+.carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(30, 30, 30, 0.8),
+        rgba(30, 30, 30, 0.8)
+    ),
+    url(/historia/Imagenes/OTROS-2.png); /* Imagen de fondo con degradado y superposición */
+}
+
+/* Estilo para el tercer elemento con clase 'carta' en el documento */
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(30, 30, 30, 0.8),
+        rgba(30, 30, 30, 0.8)
+    ),
+    url(/historia/Imagenes/otros-3.png); /* Imagen de fondo con degradado y superposición */
+}
+
+/* Estilo para el elemento 'footer' */
+footer {
+    background-color: grey; /* Color de fondo: gris */
+    padding: 15px; /* Relleno interno: 15 píxeles en todos los lados */
+    justify-content: space-between; /* Distribuir el contenido de manera uniforme a lo largo del eje principal con espacio entre ellos */
+    align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+    line-height: 1.5em; /* Altura de línea: 1.5 veces el tamaño de fuente actual */
+}
+
+/* Estilo para elementos con clase 'info' dentro de elementos 'footer' */
+.footer .info {
+    justify-content: space-between; /* Distribuir el contenido de manera uniforme a lo largo del eje principal con espacio entre ellos */
+    align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+}
+
+
+/* Estilo para elementos con clase 'info-group' */
+.info-group {
+    display: flex; /* Mostrar como un contenedor flexible */
+    justify-content: space-around; /* Distribuir el contenido de manera uniforme alrededor del eje principal */
+    margin: 2px 1px; /* Margen externo: 2 píxeles arriba/abajo, 1 píxel izquierda/derecha */
+    padding: 1px 5px; /* Relleno interno: 1 píxel arriba/abajo, 5 píxeles izquierda/derecha */
+}
+
+/* Estilo para enlaces dentro de elementos con clase 'info-group' al pasar el ratón sobre ellos */
+.info-group a:hover {
+    color: rgb(0, 238, 255); /* Cambiar el color del texto al azul claro al pasar el ratón */
+}
+
+/* Estilo para elementos con clase 'idiomas' */
+.idiomas {
+    margin: 0; /* Eliminar el margen predeterminado */
+    display: flex; /* Mostrar como un contenedor flexible */
+    color: black; /* Color del texto: negro */
+    justify-content: space-between; /* Distribuir el contenido de manera uniforme entre los elementos */
+}
+
+/* Estilo para enlaces dentro de elementos con clase 'idiomas' */
+.idiomas a {
+    margin-right: 15px; /* Margen derecho: 15 píxeles */
+}
+
+/* Estilo para elementos 'span' dentro de elementos con clase 'idiomas' */
+.idiomas span {
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin: 2px 1px; /* Margen externo: 2 píxeles arriba/abajo, 1 píxel izquierda/derecha */
+    padding: 5px 10px; /* Relleno interno: 5 píxeles arriba/abajo, 10 píxeles izquierda/derecha */
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: space-around; /* Distribuir el contenido de manera uniforme alrededor del eje principal */
+ }
+
+ /* Estilo para párrafos dentro de elementos 'footer' */
+ footer p {
+    margin: 0; /* Eliminar el margen predeterminado */
+    color: rgb(31, 31, 31); /* Color del texto: gris oscuro */
+ }
+
+ /* Estilo para elementos con clase 'copy' dentro de elementos 'footer' */
+ footer .copy {
+    height: 50px; /* Altura: 50 píxeles */
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    align-items: flex-end; /* Alinear los elementos al final a lo largo del eje transversal */
+ }
+
+
+  /* --------------------------------------------------------------------- */
+
+/* Estilos aplicados cuando el ancho de la ventana es igual o mayor a 720px */
+
+/* Estilo para el elemento 'header' */
+@media (min-width: 720px) {
+    header {
+        position: fixed; /* Fijar la posición del encabezado */
+        width: 100%; /* Ancho: 100% del contenedor principal */
+    
+    }
+    /* Estilo para elementos con clase 'logo' dentro de 'header' */
+    header .logo {
+        flex-direction: row; /* Dirección del eje principal: fila */
+        justify-content: space-between; /* Distribuir el contenido de manera uniforme entre los elementos */
+        display: flex; /* Mostrar como contenedor flexible */
+        flex-direction: column; /* Dirección del eje principal: columna */
+        align-items: center; /* Centrar los elementos a lo largo del eje transversal */
+    }
+
+    /* Estilo para elementos 'nav' dentro de 'header' */
+    header nav {
+        flex-direction: row; /* Dirección del eje principal: fila */
+        padding-bottom: 0; /* Eliminar el relleno inferior */
+    }
+
+    /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'paragrafo' */
+    #paragrafo .zapa {
+        display: flex; /* Mostrar como contenedor flexible */
+        justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    }
+ }
+
+    
+   /* Estilo para elementos con clase 'texto' dentro de elementos con id 'paragrafo' */
+ #paragrafo .texto {
+    width: 50%; /* Ancho del elemento: 50% del contenedor principal */
+    max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+    text-align: initial; /* Alineación del texto: la alineación inicial según el contexto */
+    padding-left: 50px; /* Relleno a la izquierda: 50 píxeles */
+    flex-direction: column; /* Dirección del eje principal: columna */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    text-align: center; /* Alineación del texto: centrado */
+ }
+
+ /* Estilo para elementos h2 dentro de elementos con id 'paragrafo' */
+ #paragrafo h2 {
+    margin-top: 0px; /* Margen superior: 0 píxeles (eliminar el margen predeterminado) */
+ }
+
+ /* Estilo para elementos con clase 'img-nike' dentro de elementos con id 'paragrafo' */
+ #paragrafo .img-nike {
+    background-image: url(/historia/Imagenes/Streetware1.png); /* Imagen de fondo */
+    background-size: cover; /* Tamaño del fondo: cubrir completamente */
+    background-position: center center; /* Posición del fondo: centro */
+    height: 500px; /* Altura del elemento: 500 píxeles */
+    width: 400px; /* Ancho del elemento: 400 píxeles */
+ }
+
+    
+   /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'paragrafo1' */
+ #paragrafo1 .zapa {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: flex-start; /* Justificar el contenido al principio del eje principal */
+  }
+
+ /* Estilo para elementos con clase 'texto1' dentro de elementos con id 'paragrafo1' */
+ #paragrafo1 .texto1 {
+    width: 50%; /* Ancho del elemento: 50% del contenedor principal */
+    max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+    text-align: left; /* Alineación del texto: izquierda */
+    padding-left: 0px; /* Relleno a la izquierda: 0 píxeles */
+    flex-direction: column; /* Dirección del eje principal: columna */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    text-align: center; /* Alineación del texto: centrado */
+ }
+
+ /* Estilo para elementos h2 dentro de elementos con id 'paragrafo1' */
+ #paragrafo1 h2 {
+    margin-top: 0px; /* Margen superior: 0 píxeles (eliminar el margen predeterminado) */
+ }
+
+    
+    /* Estilo para elementos con clase 'img-adidas' dentro de elementos con id 'paragrafo1' */
+ #paragrafo1 .img-adidas {
+    background-image: url(/historia/Imagenes/Streetware2.png); /* Imagen de fondo */
+    background-size: cover; /* Tamaño del fondo: cubrir completamente */
+    background-position: center center; /* Posición del fondo: centro */
+    height: 400px; /* Altura del elemento: 400 píxeles */
+    width: 600px; /* Ancho del elemento: 600 píxeles */
+    order: 1; /* Orden del elemento en el diseño flexbox */
+    margin: 40px; /* Margen externo: 40 píxeles en todos los lados */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'paragrafo2' */
+ #paragrafo2 .zapa {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos con clase 'texto2' dentro de elementos con id 'paragrafo2' */
+ #paragrafo2 .texto2 {
+    width: 50%; /* Ancho del elemento: 50% del contenedor principal */
+    max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+    text-align: left; /* Alineación del texto: izquierda */
+    padding-left: 50px; /* Relleno a la izquierda: 50 píxeles */
+    flex-direction: column; /* Dirección del eje principal: columna */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    text-align: center; /* Alineación del texto: centrado */
+ }
+
+    
+  /* Estilo para elementos h2 dentro de elementos con id 'paragrafo2' */
+ #paragrafo2 h2 {
+    margin-top: 0px; /* Margen superior: 0 píxeles (eliminar el margen predeterminado) */
+ }
+
+ /* Estilo para elementos con clase 'img-newbalance' dentro de elementos con id 'paragrafo2' */
+ #paragrafo2 .img-newbalance {
+    background-image: url(/historia/Imagenes/Streetware3.png); /* Imagen de fondo */
+    background-size: cover; /* Tamaño del fondo: cubrir completamente */
+    background-position: center center; /* Posición del fondo: centro */
+    height: 350px; /* Altura del elemento: 350 píxeles */
+    width: 500px; /* Ancho del elemento: 500 píxeles */
+ }
+
+ /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'paragrafo3' */
+  #paragrafo3 .zapa {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: flex-start; /* Justificar el contenido al principio del eje principal */
+ }
+
+        
+   /* Estilo para elementos con clase 'texto3' dentro de elementos con id 'paragrafo3' */
+ #paragrafo3 .texto3 {
+    width: 50%; /* Ancho del elemento: 50% del contenedor principal */
+    max-width: 600px; /* Ancho máximo del elemento: 600 píxeles */
+    text-align: left; /* Alineación del texto: izquierda */
+    padding-left: 0px; /* Relleno a la izquierda: 0 píxeles */
+    flex-direction: column; /* Dirección del eje principal: columna */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+    text-align: center; /* Alineación del texto: centrado */
+ }
+
+ /* Estilo para elementos h2 dentro de elementos con id 'paragrafo3' */
+ #paragrafo3 h2 {
+    margin-top: 0px; /* Margen superior: 0 píxeles (eliminar el margen predeterminado) */
+ }
+
+        
+   /* Estilo para elementos con clase 'img-crocs' dentro de elementos con id 'paragrafo3' */
+ #paragrafo3 .img-crocs {
+    background-image: url(/historia/Imagenes/Streetware4.png); /* Imagen de fondo */
+    background-size: cover; /* Tamaño del fondo: cubrir completamente */
+    background-position: center center; /* Posición del fondo: centro */
+    height: 350px; /* Altura del elemento: 350 píxeles */
+    width: 600px; /* Ancho del elemento: 600 píxeles */
+    order: 1; /* Orden del elemento en el diseño flexbox */
+    margin: 40px; /* Margen externo: 40 píxeles en todos los lados */
+ }
+ 
+ /* Estilo para elementos con clase 'otros' dentro de elementos con id 'otros' */
+ #otros .otros {
+    display: flex; /* Mostrar como contenedor flexible */
+    justify-content: center; /* Centrar el contenido a lo largo del eje principal */
+ }
+
+ /* Estilo para elementos h3 dentro de elementos con id 'otros' */
+ #otros h3 {
+    margin-top: 0px; /* Margen superior: 0 píxeles (eliminar el margen predeterminado) */
+ }
+
+ /* Estilo para párrafos dentro de elementos con id 'otros' */
+ #otros p {
+    display: block; /* Mostrar como elemento de bloque */
+    margin-bottom: 30px; /* Margen inferior: 30 píxeles */
+ }
+
+ /* Estilo para elementos con clase 'carta' dentro de elementos con id 'otros' */
+ #otros .carta {
+    padding: 70px; /* Relleno interno: 70 píxeles en todos los lados */
+    margin: 10px; /* Margen externo: 10 píxeles en todos los lados */
+ }
