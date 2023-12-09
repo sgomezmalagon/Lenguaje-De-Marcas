@@ -45,7 +45,6 @@ li {
   font-size: 1.25em; /* Tamaño de fuente para elementos de lista: 1.25 veces el tamaño predeterminado */
 }
 
-
 /* Estilo para elementos con clase 'zapa' */
 .zapa {
   max-width: 1400px; /* Ancho máximo del elemento: 1400 píxeles */
@@ -138,25 +137,25 @@ header a:hover {
 /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB9060' */
 #NB9060 .zapa {
   text-align: center; /* Alineación del texto: centrado */
-  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
 }
 
 /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB550' */
 #NB550 .zapa {
   text-align: center; /* Alineación del texto: centrado */
-  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
 }
 
 /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB2002' */
 #NB2002 .zapa {
   text-align: center; /* Alineación del texto: centrado */
-  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
 }
 
 /* Estilo para elementos con clase 'zapa' dentro de elementos con id 'NB990' */
 #NB990 .zapa {
   text-align: center; /* Alineación del texto: centrado */
-  padding: 257px 12px; /* Relleno interno: 257 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
+  padding: 50px 12px; /* Relleno interno: 50 píxeles arriba/abajo, 12 píxeles izquierda/derecha */
 }
 
 /* Estilo para elementos con id 'masmodelos' */
@@ -282,12 +281,10 @@ footer .copy {
   align-items: flex-end; /* Alinear los elementos en la parte inferior del contenedor */
 }
 
-
-
 /* --------------------------------------------------------------------- */
 
 /* Estilo aplicado cuando el ancho de la pantalla es igual o mayor a 720px */
-@media (min-width: 720px){}
+@media (min-width: 720px){
   /* Estilo para el elemento 'header' */
   header {
     position: fixed; /* Fijar la posición del encabezado en la ventana */
@@ -314,8 +311,6 @@ footer .copy {
     display: flex; /* Mostrar como contenedor flexible */
     justify-content: center; /* Centrar los elementos a lo largo del eje principal */
   }
- 
-
   
   /* Estilo para elementos con clase 'texto' dentro de elementos con id 'NB9060' */
  #NB9060 .texto {
@@ -438,7 +433,10 @@ footer .copy {
   background-position: center center; /* Posición del fondo: centro */
   height: 350px; /* Altura del elemento: 350 píxeles */
   width: 500px; /* Ancho del elemento: 500 píxeles */
+  order: 1; /* Orden en el diseño flexible: 1 */
+  margin: 40px; /* Margen: 40px */
  }
+}
  
   
  
