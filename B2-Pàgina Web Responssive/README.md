@@ -258,9 +258,11 @@ historia.html
 
 ## Capturas de Pantalla
 **Sección de Header:**
+
 ![Seccion Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Header-Historia.png)
 
 **Sección de Paragrafos:**
+
 ![Seccion Paragrafos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia1.png)
 ![Seccion Paragrafos2](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia2.png)
 ![Seccion Paragrafos3](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia3.png)
@@ -268,9 +270,11 @@ historia.html
 ![Seccion Paragrafos5](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Paragrafo-Historia5.png)
 
 **Sección de Otros:**
+
 ![Seccion Otros](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Otros-Historia.png)
 
 **Sección de Footer:**
+
 ![Seccion Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/Footer-Historia.png)
 ## División de Tareas
 
