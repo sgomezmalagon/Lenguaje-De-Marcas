@@ -1,4 +1,4 @@
-
+##B2- Página Web Responsive
 La estructura de carpetas y archivos que conforman la página web es la siguiente:
 
 - **B2-Página web responsive**: Carpeta principal.
