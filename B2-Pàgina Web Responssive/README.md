@@ -1,4 +1,3 @@
-![image](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/assets/147530296/958e877a-32bb-413b-be53-de66c0ba83bc)![image](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/assets/147530296/0ce0bb32-bb2f-4404-8890-e03a7afcc26d)# B2-Página Web Responsive - One More Step
 
 La estructura de carpetas y archivos que conforman la página web es la siguiente:
 
