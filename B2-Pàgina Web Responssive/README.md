@@ -871,27 +871,27 @@ newbalance.html
 
 **Sección de Header:**
 
-[Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/Header-NewBalance.png)
+![Sección de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/Header-NewBalance.png)
 
 **Sección de NB9060:**
 
-[Sección de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-9060.png)
+![Sección de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-9060.png)
 
 **Sección de NB550:**
 
-[Sección de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-550.png)
+![Sección de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-550.png)
 
 **Sección de NB2002**
 
-[Sección de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-2002.png)
+![Sección de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-2002.png)
 
 **Sección de NB990:**
   
-[Sección NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-990.png)
+![Sección NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/NB-990.png)
 
 **Sección de NB990:**
-[Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos1.png)
-[Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos2.png)
+![Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos1.png)
+![Sección Mas Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/MasModelos2.png)
 
 **IMPORTANTE**
 Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el html  footer. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el html.
@@ -936,7 +936,7 @@ newbalance.css
 
 **CSS de Header:**
 
-[CSS de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Header.png)
+![CSS de Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Header.png)
 
 **CSS de Zapas**
 ![CSS de Zapas](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Zapas.png)
@@ -950,19 +950,19 @@ newbalance.css
 
 **CSS de NB9060:**
 
-[CSS de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Responsuve9060.png)
+![CSS de NB9060](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-Responsuve9060.png)
 
 **CSS de NB550:**
 
-[CSS de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve550.png)
+![CSS de NB550](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve550.png)
 
 **CSS de NB2002**
 
-[CSS de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve2002.png)
+![CSS de NB2002](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve2002.png)
 
 **CSS de NB990:**
   
-[CSS NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve990.png)
+![CSS NB990](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/NewBalance/CSS/CSS-ResponsIve990.png)
 
 
 **IMPORTANTE**
