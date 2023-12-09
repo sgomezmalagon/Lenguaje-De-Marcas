@@ -112,7 +112,7 @@ header a:hover {
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url(/Adidas/imagenes/Adidas_header.png); /* Establecer la imagen de fondo */
+    url("Imagenes/Adidas_header.png"); /* Establecer la imagen de fondo */
   background-repeat: no-repeat; /* No repetir la imagen de fondo */
   background-size: cover; /* Cubrir completamente el contenedor con la imagen de fondo */
   background-position: center center; /* Posición de la imagen de fondo */
@@ -182,7 +182,7 @@ header a:hover {
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
     ),
-    url(/Adidas/imagenes/Samba.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+    url("Imagenes/Samba.png"); /* Establecer la imagen de fondo con degradado lineal y URL */
 }
 
 /* Estilo para el segundo elemento con clase .carta dentro de #masmodelos */
@@ -192,7 +192,7 @@ header a:hover {
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
     ),
-    url(/Adidas/imagenes/originals.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+    url("Imagenes/originals.png"); /* Establecer la imagen de fondo con degradado lineal y URL */
 }
 
 
@@ -203,7 +203,7 @@ header a:hover {
     rgba(30, 30, 30, 0.8),
     rgba(30, 30, 30, 0.8)
   )
-  ,url(/Adidas/imagenes/Stan_Smith.png); /* Establecer la imagen de fondo con degradado lineal y URL */
+  ,url("Imagenes/Stan_Smith.png"); /* Establecer la imagen de fondo con degradado lineal y URL */
 }
 
 /* Estilo para el elemento footer */
@@ -321,7 +321,7 @@ footer .copy {
   
   /* Estilos para la imagen del modelo #campus00 */
 #campus00 .img-campus00 {
-  background-image: url(/Adidas/imagenes/Campus00.png);
+  background-image: url(Imagenes/Campus00.png);
   background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
   background-position: center center; /* Centrar la imagen en el contenedor */
   height: 500px; /* Altura fija de 500px */
@@ -352,7 +352,7 @@ footer .copy {
 
  /* Estilos para la imagen del modelo #campusbb */
  #campusbb .img-campusbb {
-  background-image: url(/Adidas/imagenes/Campus_BadBunny.png);
+  background-image: url(Imagenes/Campus_BadBunny.png);
   background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
   background-position: center center; /* Centrar la imagen en el contenedor */
   height: 300px; /* Altura fija de 300px */
@@ -386,7 +386,7 @@ footer .copy {
 
  /* Estilos para la imagen del modelo #yeezy */
  #yeezy .img-yeezy {
-  background-image: url(/Adidas/imagenes/Yeezy.png);
+  background-image: url(Imagenes/Yeezy.png);
   background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
   background-position: center center; /* Centrar la imagen en el contenedor */
   height: 350px; /* Altura fija de 350px */
@@ -418,7 +418,7 @@ footer .copy {
   
   /* Estilos para la imagen del modelo #responsecl */
  #responsecl .img-responsecl {
-  background-image: url(/Adidas/imagenes/Response_CL.png);
+  background-image: url(Imagenes/Response_CL.png);
   background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
   background-position: center center; /* Centrar la imagen en el contenedor */
   height: 400px; /* Altura fija de 400px */
