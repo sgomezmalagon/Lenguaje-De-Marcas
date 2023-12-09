@@ -112,7 +112,7 @@ header a:hover {
       0deg,
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
-  ), url("/Nike/Imagenes/Cabezera.png"); /* Imagen de fondo con degradado y URL */
+  ), url("Imagenes/Cabezera.png"); /* Imagen de fondo con degradado y URL */
   background-repeat: no-repeat; /* No repetir la imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
@@ -182,7 +182,7 @@ header a:hover {
       0deg,
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
-  ), url(/Nike/Imagenes/Dunk.png); /* Imagen de fondo con degradado y URL */
+  ), url("Imagenes/Dunk.png"); /* Imagen de fondo con degradado y URL */
 }
 
   
@@ -192,7 +192,7 @@ header a:hover {
       0deg,
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
-  ), url(/Nike/Imagenes/Cortez.png); /* Imagen de fondo con degradado y URL */
+  ), url("Imagenes/Cortez.png"); /* Imagen de fondo con degradado y URL */
 }
 
 /* Estilo para el tercer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
@@ -201,7 +201,7 @@ header a:hover {
       0deg,
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
-  ), url(/Nike/Imagenes/Blazer.png); /* Imagen de fondo con degradado y URL */
+  ), url("Imagenes/Blazer.png"); /* Imagen de fondo con degradado y URL */
 }
 
 /* Estilo para el elemento 'footer' */
@@ -320,7 +320,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-jordan' dentro de elementos con id 'jordan' */
  #jordan .img-jordan {
-  background-image: url(/Nike/Imagenes/Jordan.png); /* Imagen de fondo con URL */
+  background-image: url("Imagenes/Jordan.png"); /* Imagen de fondo con URL */
   background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
   background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
   height: 500px; /* Altura: 500px */
@@ -351,7 +351,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-airforce' dentro de elementos con id 'airforce' */
  #airforce .img-airforce {
-  background-image: url(/Nike/Imagenes/Air-force.png); /* Imagen de fondo con URL */
+  background-image: url("Imagenes/Air-force.png"); /* Imagen de fondo con URL */
   background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
   background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
   height: 500px; /* Altura: 500px */
@@ -384,7 +384,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-airmax' dentro de elementos con id 'airmax' */
  #airmax .img-airmax {
-  background-image: url(/Nike/Imagenes/Air-Max.png); /* Imagen de fondo con URL */
+  background-image: url("Imagenes/Air-Max.png"); /* Imagen de fondo con URL */
   background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
   background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
   height: 350px; /* Altura: 350px */
@@ -415,7 +415,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-nikesb' dentro de elementos con id 'nikesb' */
  #nikesb .img-nikesb {
-  background-image: url(/Nike/Imagenes/Nike-SB.png); /* Imagen de fondo con URL */
+  background-image: url("Imagenes/Nike-SB.png"); /* Imagen de fondo con URL */
   background-size: cover; /* Tamaño de la imagen de fondo: cubrir */
   background-position: center center; /* Posición de la imagen de fondo: centrada en el centro */
   height: 350px; /* Altura: 350px */
