@@ -123,7 +123,7 @@ header a:hover {
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url("/Newbalance/Imagenes/Header_NewBalance.png"); /* Imagen de fondo */
+    url("Imagenes/Header_NewBalance.png"); /* Imagen de fondo */
   background-repeat: no-repeat; /* No repetir la imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
@@ -194,7 +194,7 @@ header a:hover {
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
     ),
-    url(/Newbalance/Imagenes/NewBalance327.png); /* Imagen de fondo */
+    url(Imagenes/NewBalance327.png); /* Imagen de fondo */
 }
 
 
@@ -205,7 +205,7 @@ header a:hover {
       rgba(30, 30, 30, 0.8),
       rgba(30, 30, 30, 0.8)
     ),
-    url(/Newbalance/Imagenes/NewBalance530.png); /* Imagen de fondo */
+    url(Imagenes/NewBalance530.png); /* Imagen de fondo */
 }
 
 /* Estilo para el tercer elemento con clase 'carta' dentro de elementos con id 'masmodelos' */
@@ -215,7 +215,7 @@ header a:hover {
     rgba(30, 30, 30, 0.8),
     rgba(30, 30, 30, 0.8)
   )
-  ,url(/Newbalance/Imagenes/NewBalance1906-R.png); /* Imagen de fondo */
+  ,url(Imagenes/NewBalance1906-R.png); /* Imagen de fondo */
 }
 
 /* Estilo para el elemento footer */
@@ -335,7 +335,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-NB9060' dentro de elementos con id 'NB9060' */
  #NB9060 .img-NB9060 {
-  background-image: url(/Newbalance/Imagenes/NewBalance9060.png); /* Imagen de fondo */
+  background-image: url(Imagenes/NewBalance9060.png); /* Imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
   height: 500px; /* Altura del elemento: 500 píxeles */
@@ -368,7 +368,7 @@ footer .copy {
   
   /* Estilo para elementos con clase 'img-NB550' dentro de elementos con id 'NB550' */
  #NB550 .img-NB550 {
-  background-image: url(/Newbalance/Imagenes/Newbalance550.png); /* Imagen de fondo */
+  background-image: url(Imagenes/Newbalance550.png); /* Imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
   height: 500px; /* Altura del elemento: 500 píxeles */
@@ -408,7 +408,7 @@ footer .copy {
 
  /* Estilo para elementos con clase 'img-NB2002' dentro de elementos con id 'NB2002' */
  #NB2002 .img-NB2002 {
-  background-image: url(/Newbalance/Imagenes/NewBalance2002.png); /* Imagen de fondo */
+  background-image: url(Imagenes/NewBalance2002.png); /* Imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
   height: 350px; /* Altura del elemento: 350 píxeles */
@@ -433,11 +433,14 @@ footer .copy {
 
  }
  #NB990 .img-NB990 {
-  background-image: url(/Newbalance/Imagenes/NewBalance990.png); /* Imagen de fondo */
+  background-image: url(Imagenes/NewBalance990.png); /* Imagen de fondo */
   background-size: cover; /* Tamaño del fondo: cubrir completamente */
   background-position: center center; /* Posición del fondo: centro */
   height: 350px; /* Altura del elemento: 350 píxeles */
   width: 500px; /* Ancho del elemento: 500 píxeles */
  }
+ 
+  
+ 
  
  
