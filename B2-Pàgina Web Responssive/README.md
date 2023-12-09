@@ -427,27 +427,27 @@ Nike.html
 
 **Sección de Header:**
 
-- [Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Header-Nike.png)
+![Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Header-Nike.png)
 
 **Sección de Jordan:**
-- [Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Jordan-Nike.png)
+![Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Jordan-Nike.png)
 
 **Sección de Air Force:**
 
-- [Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
+![Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
 
 **Sección de Air Max:**
-- [Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
+![Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/AirForce-Nike.png)
 
 **Sección de NikeSB:**
 
-- [Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/NikeSB-Nike.png)
+![Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/NikeSB-Nike.png)
 
 **Sección de MasModelos:**
-- [Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/MasModelos.png)
+![Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/MasModelos.png)
 
 **Sección de Footer:**
-- [Sección Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Footer-Nike.png)
+![Sección Footer](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Footer-Nike.png)
 
 ## División de las Tareas
 
@@ -485,24 +485,24 @@ Nike.css
 
 **Sección de Header:**
 
-- [Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Cabezera.png)
+![Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Cabezera.png)
 
 **Sección de Jordan:**
-- [Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Jordan.PNG)
+![Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Jordan.PNG)
 
 **Sección de Air Force:**
 
-- [Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirForce.ng.PNG)
+![Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirForce.ng.PNG)
 
 **Sección de Air Max:**
-- [Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirMax.png)
+![Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirMax.png)
 
 **Sección de NikeSB:**
 
-- [Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-NikeSB.png)
+![Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-NikeSB.png)
 
 **Sección de MasModelos:**
-- [Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-MasModelos.png)
+![Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-MasModelos.png)
 
 **IMPORTANTE**
 Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
