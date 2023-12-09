@@ -352,7 +352,7 @@ A continuación, se incluyen algunas capturas de pantalla de diferentes seccione
 ![CSS Responsive5](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Historia/CSS/CSS-Responsive5.png)
 
 **IMPORTANTE**
-Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css.
 
 ## División de Tareas
 
@@ -427,7 +427,6 @@ Nike.html
 
 **Sección de Header:**
 
-
 - [Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/Header-Nike.png)
 
 **Sección de Jordan:**
@@ -484,23 +483,30 @@ Nike.css
 
 ## Capturas de Pantalla
 
-1. Barra de Navegación
-   ![Barra de Navegación](/ruta/a/imagen.png)
+**Sección de Header:**
 
-2. Modelo #campus00
-   ![Modelo #campus00](/ruta/a/imagen.png)
+- [Sección Header](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Cabezera.png)
 
-3. Modelo #campusbb
-   ![Modelo #campusbb](/ruta/a/imagen.png)
+**Sección de Jordan:**
+- [Sección Jordan](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-Jordan.PNG)
 
-4. Modelo #yeezy
-   ![Modelo #yeezy](/ruta/a/imagen.png)
+**Sección de Air Force:**
 
-5. Modelo #responsecl
-   ![Modelo #responsecl](/ruta/a/imagen.png)
+- [Sección Air Force](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirForce.ng.PNG)
 
-6. Sección de Modelos Adicionales
-   ![Sección de Modelos Adicionales](/ruta/a/imagen.png)
+**Sección de Air Max:**
+- [Sección Air Max](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-AirMax.png)
+
+**Sección de NikeSB:**
+
+- [Sección Nike SB](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-NikeSB.png)
+
+**Sección de MasModelos:**
+- [Sección Modelos](https://github.com/sgomezmalagon/Lenguaje-De-Marcas/blob/main/B2-Pàgina%20Web%20Responssive/ImagenesReadME/Nike/CSS/CSS-MasModelos.png)
+
+**IMPORTANTE**
+Algunas capturas no se muestran, debido a que el contenido del css es el mismo que en el de incio. Por ejemplo el css general, de header, footer etc. Con el minimo cambio por ejemplo, el cambio de una imagen se pondra, ya que es importante para el css
+
 ## División de Tareas
 
 El desarrollo de la página web se dividió entre los miembros del equipo de la siguiente manera:
